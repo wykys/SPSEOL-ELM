@@ -1,0 +1,22 @@
+\begin{minipage}[c][13cm][d]{0.8\textwidth}
+  \begin{enumerate}
+    \item
+      Pomocí IO555 navrhněte generátor obdélníkového napětí s těmito parametry:
+      \newline
+      $f = 5~kHz$, DCL (střída) $= 60~\%$, $U_{MIN_{ustalena}} = 0~V$, $U_{MAX_{ustalena}} = 6~V$
+    \item
+      Jmenovité hodnoty použitých součástek změřte a vypočítejte absolutní a procentní chyby měření.
+    \item
+      Generátor sestavte pomocí přípravku a změřte tyto parametry výstupního napětí:
+      \newline
+      periodu, frekvenci (pomocí $4\frac{1}{2} DMM$), dobu úrovně H a dobu úrovně L, DCL, střídu, dobu náběžné hrany, dobu sestupné hrany, maximální a minimální ustálenou hodnotu, celkový rozkmit, překmit úrovně H, střední hodnotu, efektivní hodnoru
+    \item
+      Změřte dobu nabíjení a vybíjení kondenzátoru, minimální a maximální hodnotu napětí na časovacím kondenzátoru.
+    \item
+      Na PC zakreslete časový průběh výstupního napětí generátoru, napětí na časovacím kondenzátoru.  
+  \end{enumerate}
+
+  %\vspace{6cm}
+\end{minipage}
+
+

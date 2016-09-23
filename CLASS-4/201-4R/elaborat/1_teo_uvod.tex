@@ -1,0 +1,35 @@
+\section*{Teoretický úvod}
+		\subsection*{Wienův článek}
+			\indent\indent
+			Wienův článek je složený RC obvod, který vznikl spojením horní a dolní propusti tvořené RC prvky. Když tedy došlo ke spojení dolní a horní propusti v jeden dvojbran, tak vznikla pásmová propust tvořená právě články RC. Důležitou vlastností tohoto zapojení je, že má fázoví posun při mezní (rezonanční) frekvenci $f_0$ $\varphi = 0$. Pokud má vstupní signál nižší frekvenci než je mezní frekvence tohoto zapojení, tak se zapojení chová jako dolní propust, výstupní napětí předbíhá vstupní a $\varphi=\frac{\pi}{2}$. Pro frekvence vstupního signálu vyšších než je frekvence rezonanční se obvod chová jako dolní propust a vstupní napětí se zpožďuje za výstupním o $\varphi = -\frac{\pi}{2}$. Uvedené fázové posuny $\varphi$ předpokládají použití ideálních součástek. Hodnoty součástek Wienova článku se počítají stejně jako hodnoty součástek horní nebo dolní RC propusti. Nejlepších parametrů ale zapojení dosahuje tehdy, pokud se použijí rezistory o stejné jmenovité hodnotě a kondenzátory o stejné jmenovité hodnotě.
+			
+			Vztah pro výpočet mezní frekvence Wienova článku:
+			\begin{equation}
+  				f_0 = \dfrac{1}{2\pi R C} \Rightarrow R = \dfrac{1}{2\pi f_0 C}
+  			\end{equation}		
+		
+			\hspace*{2cm}kde:\newline    
+  			\hspace*{4cm}$f_0$ \dotfill mezní frekvence\hspace*{4cm}\newline
+	  		\hspace*{4cm}$R$ \dotfill rezistor\hspace*{4cm}\newline
+	  		\hspace*{4cm}$C$ \dotfill kondenzátor\hspace*{4cm}\newline
+			
+		\subsection*{Neinvertující zesilovač s OZ}
+			\indent\indent
+			Neinvertující zesilovač s OZ je zapojení, které zesiluje vstupní signál a přitom neobrací fázi vstupního signálu. Jeho předností je velký vstupní odpor v řádů několika $M\Omega$. Tento zesilovač je nutnou součástí oscilátoru, který umožňuje splnění rezonančních podmínek. První podmínkou je aby zesílení v toto obvodu bylo rovno jedné. To je ale jen ideální případ, v praxi musí být zesílení nepatrně vyšší než jedna, protože v obvodu vznikají ztráty. Další podmínkou je podmínka fázová, který říká, že součet všech fázových posunů v obvodu mísí být roven nebo větší jedné. Po splnění těchto podmínek a po připojení Wienova článku jako kladné zpětné vazby by mělo docházek k neztlumenému kmitání obvodu. Použité měřící zapojení má ještě jednu vychytávku a tou je nahrazení jednoho ze zpětnovazebních rezistorů OZ žárovkou. To umožňuje proudovou stabilizaci výstupního signálu. Má to ovšem dle mého názoru jeden háček a to je jest to, že když si změříme pomocí digitálního multimetru odpor žárovky a s jeho pomocí vypočítáme  druhý zpětnovazební rezistor. Alespoň dle návodu v popisu úlohy. To je ale ohromná chyba, protože s průchodem elektrického proudu dochází ke změně odporu vlákna žárovky a tudíž i ke změně nastaveného pracovního bodu zesilovače. My sice tento jev používáme pro stabilizaci výstupního proudu, ale musíme si uvědomit, že odpor žárovky ze kterého vycházíme pro výpočet zesílení zesilovače se s průchodem klidového proudu (rozuměj proudu při běžné činnosti obvodu) značně změní.
+			
+			
+			Vztah pro výpořet mezní frekvence použitého integračního článku:
+			\begin{equation}
+  				a_u = 20\log\frac{R_{ZP}}{R_Z} \Rightarrow R_{ZP} = R_Z 10^{\frac{a_u}{20}}
+  			\end{equation}		
+		
+			\hspace*{2cm}kde:\newline    
+  			\hspace*{4cm}$a_u$ \dotfill napěťový zisk\hspace*{4cm}\newline
+	  		\hspace*{4cm}$R_Z$ \dotfill odpor žárovky\hspace*{4cm}\newline
+	  		\hspace*{4cm}$R_{ZP}$ \dotfill odpor zpětnovazebního rezistoru\hspace*{4cm}\newline
+  				
+Obvod je dále opatřen tranzistorovým zesilovačem Pracujícím ve třídě B, který slouží k výkonovému posílení výstupního signálu.
+  
+  
+
+

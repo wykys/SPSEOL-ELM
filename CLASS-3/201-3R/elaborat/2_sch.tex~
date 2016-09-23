@@ -1,0 +1,14 @@
+\section{Schéma}
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=17cm]{../img/pol.pdf}
+    \caption{Zjišťování elektrod (anody a katody)}
+    \label{sch:2}
+  \end{figure}
+  
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=17cm]{../img/201-3R.pdf}
+    \caption{Měření VACH}
+    \label{sch:2}
+  \end{figure}

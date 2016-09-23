@@ -1,0 +1,49 @@
+\section*{Teoretický úvod}
+		\subsection*{Selektivní zesilovač}
+			\indent\indent
+			Selektivní zesilovač je zařízení, určené k zesilování signálů úzké části spektra. K potlačení ostatních signálů se používá paralelní laděný obvod zapojený do kolektoru tranzistoru. Tento laděný obvod na rezonanční frekvenci má nejvyšší odpor, tudíž na rezonančním obvodu vzniká větší úbytek napětí než na frekvencích nerezonančních. Použité zapojení je ještě doplněno induktivní vazbou. Tato vazba umožňuje impedanční přizpůsobení obvodu. Tento způsob přizpůsobení je vhodnější, než navázat na kolektor přes vazební kondenzátor rezistor proti zemi, protože by se nám výstupní napětí dělilo mezi námi navázaný odpor a impedanci v kolektoru. Selektivní zesilovače nalézají své uplatnění například v audio technice, kde mohou sloužit k filtrování signálů určených pro různé reproduktory. Další využití tohoto zesilovače je v oscilátorech.
+			
+		\subsection*{Oscilátor se selektivním zesilovačem}
+			\indent\indent
+			Pokud bychom chtěli vytvořit obvod, který by osciloval, založený na kladné zpětné vazbě, tak bychom museli splnit dvě oscilační podmínky. První podmínka je amplitudová. Říká že napěťový přenos zařízení ze kterého chceme udělat oscilátor musí být větší nebo roven jedné. V praxi musí být větší než jedna, protože na vedení dochází ke ztrátám. Navíc použité součástky mají do ideálních velmi daleko a mívají obvykle celou řadu parazitních vlastností. Druhá podmínka je fázová. Říká nám že výsledný fázový posuv obvodu musí být nula.
+			
+		\subsection*{Šířka pásma selektivního zesilovače}
+			\indent\indent
+			Jak již bylo řečeno v prvním odstavci, selektivní zesilovač je určen k zecilování úské části spektra. Zesilované pásmo je dáno vztahem:
+						
+			Vztah pro výpočet šířky pásma:
+			\begin{equation}
+  				B = f_H - f_D
+  			\end{equation}		
+		
+			\hspace*{2cm}kde:\newline    
+  			\hspace*{4cm}$B$ \dotfill šířka pásma\hspace*{4cm}\newline
+	  		\hspace*{4cm}$f_H$ \dotfill horní mezní frekvence\hspace*{4cm}\newline
+	  		\hspace*{4cm}$f_D$ \dotfill dolní mezní frekvence\hspace*{4cm}\newline
+  							
+			Horní a dolní mezní frekvence se poznají velmi snadno. Jsou definovány jako frekvence při nichž napěťový přenos klesne o $3~dB$ oproti mezní frekvenci.
+			
+			Vztah pro výpočet napěťového přenosu:
+			\begin{equation}
+  				A_u = \dfrac{U_O}{U_I}
+  			\end{equation}		
+		
+			\hspace*{2cm}kde:\newline    
+  			\hspace*{4cm}$A_u$ \dotfill napěťový přenos\hspace*{4cm}\newline
+	  		\hspace*{4cm}$U_I$ \dotfill vstupní napětí\hspace*{4cm}\newline
+	  		\hspace*{4cm}$U_O$ \dotfill výstupní napětí\hspace*{4cm}\newline
+	  		
+	  		Odvození $A_u$ pro pokles o $3~dB$
+	  		\begin{eqnarray}
+      			a_u &=& 20\log A_u \nonumber\\
+      			-3 &=& 20\log A_u \nonumber\\       
+      			10^{-\frac{3}{20}} &=& A_u
+    		\end{eqnarray}
+    		
+    		\hspace*{2cm}kde:\newline    
+  			\hspace*{4cm}$A_u$ \dotfill napěťový přenos\hspace*{4cm}\newline
+	  		\hspace*{4cm}$a_u$ \dotfill napěťový zisk\hspace*{4cm}\newline
+  
+  
+
+

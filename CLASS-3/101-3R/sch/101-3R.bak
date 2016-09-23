@@ -1,0 +1,221 @@
+EESchema Schematic File Version 2
+LIBS:elm
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "23 mar 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L RS-R IO3
+U 1 1 532F1441
+P 5950 3350
+F 0 "IO3" H 6150 3100 60  0000 R CNN
+F 1 "RS-R" V 5950 3350 60  0000 C CNN
+F 2 "" H 5950 3350 60  0000 C CNN
+F 3 "" H 5950 3350 60  0000 C CNN
+	1    5950 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 532F1450
+P 3950 4700
+F 0 "R3" H 4050 4750 60  0000 L CNN
+F 1 "5kΩ" H 4050 4650 60  0000 L CNN
+F 2 "~" H 3950 4700 60  0000 C CNN
+F 3 "~" H 3950 4700 60  0000 C CNN
+	1    3950 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 532F145D
+P 3950 3800
+F 0 "R2" H 4050 3850 60  0000 L CNN
+F 1 "5kΩ" H 4050 3750 60  0000 L CNN
+F 2 "~" H 3950 3800 60  0000 C CNN
+F 3 "~" H 3950 3800 60  0000 C CNN
+	1    3950 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 532F1463
+P 3950 2900
+F 0 "R1" H 4050 2950 60  0000 L CNN
+F 1 "5kΩ" H 4050 2850 60  0000 L CNN
+F 2 "~" H 3950 2900 60  0000 C CNN
+F 3 "~" H 3950 2900 60  0000 C CNN
+	1    3950 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L COMP IO1
+U 1 1 532F16AD
+P 4850 3350
+F 0 "IO1" H 4850 3200 60  0000 L CNN
+F 1 "COMP" H 4500 3200 60  0000 C CNN
+F 2 "" H 4850 3350 60  0000 C CNN
+F 3 "" H 4850 3350 60  0000 C CNN
+	1    4850 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L COMP IO2
+U 1 1 532F16BA
+P 4850 4250
+F 0 "IO2" H 4850 4100 60  0000 L CNN
+F 1 "COMP" H 4500 4100 60  0000 C CNN
+F 2 "" H 4850 4250 60  0000 C CNN
+F 3 "" H 4850 4250 60  0000 C CNN
+	1    4850 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 3350 5350 3350
+Wire Wire Line
+	5350 4250 5400 4250
+Wire Wire Line
+	5400 4250 5400 3500
+Wire Wire Line
+	5400 3500 5450 3500
+Wire Wire Line
+	3950 3200 3950 3500
+Wire Wire Line
+	3700 3450 4350 3450
+Connection ~ 3950 3450
+Wire Wire Line
+	3950 4100 3950 4400
+Wire Wire Line
+	4350 4150 3950 4150
+Connection ~ 3950 4150
+Wire Wire Line
+	6450 3500 6550 3500
+Wire Notes Line
+	3800 2550 7600 2550
+Wire Notes Line
+	7600 2550 7600 5200
+Wire Notes Line
+	3800 2550 3800 5200
+Wire Wire Line
+	5450 3200 5400 3200
+Wire Wire Line
+	5400 3200 5400 2450
+NoConn ~ 6450 3200
+Wire Wire Line
+	7550 3500 7700 3500
+Wire Wire Line
+	4350 3250 3700 3250
+Wire Wire Line
+	3950 2600 3950 2450
+Wire Wire Line
+	3950 5000 3950 5300
+Wire Wire Line
+	4350 4350 3700 4350
+$Comp
+L INV IO4
+U 1 1 532F1DBF
+P 7050 3500
+F 0 "IO4" H 7050 3350 60  0000 L CNN
+F 1 "INV" H 6750 3350 60  0000 C CNN
+F 2 "" H 7050 3500 60  0000 C CNN
+F 3 "" H 7050 3500 60  0000 C CNN
+	1    7050 3500
+	1    0    0    -1  
+$EndComp
+Text Notes 7250 5150 0    60   ~ 0
+IO555
+$Comp
+L NPN T1
+U 1 1 532F22FF
+P 6500 4400
+F 0 "T1" V 6390 4340 60  0000 C CNN
+F 1 "NPN" H 6400 4250 60  0001 C CNN
+F 2 "" H 6500 4400 60  0000 C CNN
+F 3 "" H 6500 4400 60  0000 C CNN
+	1    6500 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L R R4
+U 1 1 532F2343
+P 6500 3850
+F 0 "R4" H 6600 3900 60  0000 L CNN
+F 1 "R" H 6600 3800 60  0001 L CNN
+F 2 "~" H 6500 3850 60  0000 C CNN
+F 3 "~" H 6500 3850 60  0000 C CNN
+	1    6500 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 4200 6500 4150
+Wire Wire Line
+	6500 3550 6500 3500
+Connection ~ 6500 3500
+Wire Wire Line
+	6750 4450 7700 4450
+Wire Wire Line
+	6250 4450 5400 4450
+Wire Wire Line
+	5400 4450 5400 5050
+Wire Wire Line
+	5400 5050 3950 5050
+Connection ~ 3950 5050
+Wire Notes Line
+	3800 5200 7600 5200
+Text Notes 4000 2500 0    60   ~ 0
+8
+Text Notes 5450 2500 0    60   ~ 0
+4
+Text Notes 7650 3450 0    60   ~ 0
+3
+Text Notes 7650 4400 0    60   ~ 0
+7
+Text Notes 4000 5350 0    60   ~ 0
+1
+Text Notes 3700 3200 0    60   ~ 0
+6
+Text Notes 3700 3400 0    60   ~ 0
+5
+Text Notes 3700 4300 0    60   ~ 0
+2
+$EndSCHEMATC

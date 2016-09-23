@@ -1,0 +1,27 @@
+*************************************************************
+***                                                       ***
+*** INFORMACE K ELEKTRONICKÉMU MANUÁLU MÌØÍCÍCH PØÍSTROJU *** 
+***                                                       ***
+*************************************************************
+
+- Adresáø "Manuály mìøících pøístrojù" obsahuje jpg soubory
+  vybraných stránek mìøících pøístrojù používaných v laboratoøích ELM.
+
+- Názvy obrázkù jsou èlenìny podle druhu a typu mìøícího pøístroje: 
+  a) druh MP 
+    DDM - digitální multimetry
+    CITAC - èítaè, mìøiè frekvence
+    GF  - generátor funkcí
+    nfV - nízkofrekvenèní voltmetr, obvykle s dB stupnicí
+    OSC - osciloskop
+    RLCG - univerzální mìøiè odporu, indukènosti, kapacity
+    Unima - víceúèelový MP
+    Z - zdroj ss napìtí
+
+  b) typ pøístroje
+    BK125
+
+  c) poèadové èíslo obrázku daného MP
+    1, 2 ...
+
+  Napø.:  DMM M4650CR 1.jpg je digitální multimetr typu Metex M4650CR první obrázek

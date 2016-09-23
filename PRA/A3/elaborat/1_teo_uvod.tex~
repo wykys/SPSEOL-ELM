@@ -1,0 +1,103 @@
+\section{Teoretický úvod}
+  \indent\indent
+ Magnetické pole je podle relativistické teorie Alberta Einsteina projevem magnetického relativního (proměnného, nebo-li pohyblivého) náboje.
+  
+  \subsection{Intenzita magnetického pole}
+  	\indent\indent
+  	Značí se $H$, její jednotkou je $Am^{-1}$. Intenzita magnetického pole je vektorová veličina popisující míru silových účinků magnetického pole. Na rozdíl od magnetické indukce nezahrnuje vliv vázaných magnetizačních proudů prostředí, ale pouze "vnějších" zdrojů pole, tedy volných elektrických proudů.
+  	
+  	Výpočet intenzity magnetického pole:  	
+		\begin{equation}
+  		H = \dfrac{N \cdot I}{l}
+  	\end{equation}
+  	
+  	\hspace*{2cm}kde:\newline    
+  	\hspace*{4cm}$H$ \dotfill magnetická intenzita\hspace*{4cm}\newline
+  	\hspace*{4cm}$N$ \dotfill počet závitů cívky\hspace*{4cm}\newline
+  	\hspace*{4cm}$I$ \dotfill elektrický proud\hspace*{4cm}\newline
+  	\hspace*{4cm}$l$ \dotfill délka cívky\hspace*{4cm}\newline
+  
+  \subsection{Magnetická indukce}
+  	\indent\indent
+  	Značí se $B$, její jednotkou je $T$. Magnetická indukce je vektorová fyzikální veličina, která vyjadřuje silové účinky magnetického pole na pohybující se částice s nábojem nebo magnetickým dipólovým momentem. Je to hlavní veličina sloužící ke kvantitativnímu popisu magnetického pole. Magnetická indukce není vektorem pravým, ale tzv. axiální vektor, protože její směr se nemění při prostorové inverzi souřadnic. Hodnota vektoru magnetické indukce obecně závisí na poloze v prostoru, takže tvoří vektorové pole.
+  
+  Výpočet intenzity magnetického pole:  	
+		\begin{equation}
+  		B = \mu H
+  	\end{equation}
+  	
+  	\hspace*{2cm}kde:\newline
+  	\hspace*{4cm}$H$ \dotfill magnetická intenzita\hspace*{4cm}\newline
+  	\hspace*{4cm}$B$ \dotfill magnetická indukce\hspace*{4cm}\newline
+  	\hspace*{4cm}$\mu$ \dotfill permeabilita\hspace*{4cm}\newline
+  	
+	\subsection{Hallova sonda}
+	\indent\indent
+	Hallova sonda, Hallův článek nebo Hallův senzor je elektronická součástka, jejíž činnost je založena na technickém využití tzv. Hallova jevu.
+
+	Používá se pro měření a automatickou regulaci magnetických polí, měření velkých stejnosměrných proudů ($0,5$ až $10~kA$), ovládání velkých elektromotorů, multiplikátor, měření součinu veličin, které je možné převést na součin BI (např. okamžitý výkon), bezkontaktní tlačítka, mechanické snímače (poloha, otáčky, zrychlení) apod.
+
+	Nejčastěji je tvořena tenkou destičkou polovodiče (InSb, InAs s odporem 0,01 až 20 Ohmů a tloušťky cca $0,1~mm$, jedná se o kompromis mezi maximem citlivosti a mechanické pevnosti) obdélníkového tvaru. Držák destičky nesmí být z feromagnetického materiálu. Destička je opatřena dvěma páry kontaktů: široký slouží pro přívod proudu, úzký k odebírání výstupního Hallova napětí. Nepůsobí-li magnetické pole, jsou proudové dráhy v destičce rozloženy rovnoměrně a Hallovo napětí je nulové. V magnetickém poli působí magnetická indukce na nosiče proudu silou kolmou k jejich pohybu a stlačuje proudové čáry k jedné straně destičky. V důsledku toho vzniká na tenkých kontaktech rozdíl potenciálů, zvaný Hallovo napětí. Čím je destička polovodiče tenčí, tím je Hallova sonda citlivější. Sondy se proto vyrábí ve formě tenkých polovodičových pásků nebo vrstvy polovodiče nanesených na podložce. Celý systém je chráněn pouzdrem.
+  	
+		Úsekový tvar přímky:
+		\begin{equation}
+  		\dfrac{x}{p} + \dfrac{y}{q} = 1
+  	\end{equation}
+		
+		\hspace*{2cm}kde:\newline    
+  	\hspace*{4cm}$x$ \dotfill souřadnice x bodu náležícího této přímce\hspace*{4cm}\newline
+  	\hspace*{4cm}$y$ \dotfill souřadnice y bodu náležícího této přímce\hspace*{4cm}\newline
+  	\hspace*{4cm}$p$ \dotfill souřadnice x bodu ležícího na ose x\hspace*{4cm}\newline
+  	\hspace*{4cm}$q$ \dotfill souřadnice y bodu ležícího na ose y\hspace*{4cm}\newline
+
+		
+		Odvození rovnice pro zatěžovací přímku:
+		\begin{eqnarray}
+      U_D + U_R &=& U \nonumber\\
+      U_D + IR &=& U \nonumber\\
+      \dfrac{U_D}{U} + \dfrac{IR}{U} &=& 1
+    \end{eqnarray}
+		  
+		\hspace*{2cm}kde:\newline    
+		\hspace*{4cm}$U$ \dotfill suma všech úbytků napětí v obvodu\hspace*{4cm}\newline
+		\hspace*{4cm}$U_D$ \dotfill úbytek napětí na diodě\hspace*{4cm}\newline
+		\hspace*{4cm}$I$ \dotfill proud protékající obvodem\hspace*{4cm}\newline
+		\hspace*{4cm}$R$ \dotfill předřadný rezistor\hspace*{4cm}\newline		
+  	
+  	Odvození bodů zatěžovací přímky:
+  	\begin{eqnarray}
+      \dfrac{U_D}{U} + \dfrac{0}{U} &=& 1 \nonumber\\
+      U_D &=& = U \nonumber\\
+      P &=& [U; 0] \\      
+      \dfrac{0}{U} + \dfrac{IR}{U} &=& 1 \nonumber\\
+      I &=& \dfrac{U}{I} \nonumber\\
+      Q &=& \left[0; \dfrac{U}{R}\right]
+    \end{eqnarray}
+    		  
+		\hspace*{2cm}kde:\newline    
+		\hspace*{4cm}$U$ \dotfill suma všech úbytků napětí v obvodu\hspace*{4cm}\newline
+		\hspace*{4cm}$U_D$ \dotfill úbytek napětí na diodě\hspace*{4cm}\newline
+		\hspace*{4cm}$I$ \dotfill proud protékající obvodem\hspace*{4cm}\newline
+		\hspace*{4cm}$R$ \dotfill předřadný rezistor\hspace*{4cm}\newline		
+		\hspace*{4cm}$P$ \dotfill souřadnice bodu ležícího na ose x\hspace*{4cm}\newline
+  	\hspace*{4cm}$Q$ \dotfill souřadnice bodu ležícího na ose y\hspace*{4cm}\newline
+  	
+  \subsection{Dynamický (diferenciální) odpor}
+  	\indent\indent
+  	Pokud pracujeme se součástkou který má nelineární VACH, tak si výpočty můžeme zjednodušit tak, že v jednom konkrétním pracovním bodě si spočítáme diferenciální odpor, pomocí tohoto diferenciálního odporu můžeme počítat s nelineárním prvkem v konkrétním pracovním bodu, jakoby byl lineární.
+  	
+  	\subsubsection{Graficko-početní metoda zjištění diferenciálního odporu}
+  		\indent\indent
+  		Na VACH si zvolíme konkrétní pracovní bod, k tomuto pracovnímu bodu sestrojíme tečnu. V libovolném místě k tečně doplníme dvě strany a sestrojíme pravoúhlí trojúhelník, přičemž strana splývající s tečnou bude přepona, viz. graf č. 2.
+  		
+  		Výpočet diferenciálního odporu:  		
+  		\begin{equation}
+  			r_d = \dfrac{\Delta U}{\Delta I}
+  		\end{equation}
+  		
+  		\hspace*{2cm}kde:\newline    
+			\hspace*{4cm}$r_d$ \dotfill diferenciální odpor\hspace*{4cm}\newline
+			\hspace*{4cm}$\Delta U$ \dotfill odvěsna pravoúhlého trojúhelníku rovnoběžná s osou x\hspace*{4cm}\newline
+			\hspace*{4cm}$\Delta I$ \dotfill odvěsna pravoúhlého trojúhelníku rovnoběžná s osou y\hspace*{4cm}\newline
+		
+ 

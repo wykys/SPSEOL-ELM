@@ -1,0 +1,26 @@
+\section*{Závěr}
+  
+%  \begin{tabular}[H]{rcrl}
+%    $20~V$ & $\pm0,5\%$ z MH $\pm 1$ digit & $19.99~V$ & $0,01~V$ \\
+%    $2~mA$ & $\pm0,8\%$ z MH $\pm 1$ digit & $1.999~V$ & $0,001~mA$ \\
+%    $20~mA$ & $\pm0,8\%$ z MH $\pm 1$ digit & $19.99~V$ & $0,01~mA$ \\
+%    $200~mA$ & $\pm1,5\%$ z MH $\pm 5$ digit & $199.9~V$ & $0,1~mA$
+%  \end{tabular}
+  
+  \subsection*{Chyby měřících přístrojů}
+    \indent\indent
+    Procentuální chyba použitého milivoltmetru TESLA BM-579 je uvedena v katalogu pro námi použitý rozsah~($1-30~V$)~$\pm6~\%$. Jelikož byl použitý digitální osciloskop, tak v měřeném signálu bude chyby měření způsobená kvantováním. Chybu použitého osciloskopu RIGOL DS1052E se mi ale nepodařila nikde dohledat. Chyba použitého čítače U2000 bohužel na publicku také není k nalezení.
+  
+  \subsection*{Zhodnocení}
+    \begin{enumerate}
+      \item
+        Analyzoval jsem obvod měřícího přípravku. Výstupem bylo schéma zapojení se jmenovitými hodnotami použitých prvků.
+      \item
+        Na $mm$ papír jsem zaznamenal frekvenční charakteristiku závislosti $A_u = f(f)$. Při měření byla zjištěna $f_D = 1,1478~kHz$ a $f_H = 1,9062~kHz$. S těchto údajů byla spočítána šířka pásma selektivního zesilovače $B = 758,4~Hz$.
+      \item
+      	Úpravou obvodu jsem získal ze selektivního zesilovače nf oscilátor, který osciluje na průměrné frekvenci $f_{prum} = 1,4773~kHz$. Byli změřeny parametry zadané v bodu zadání 3 a přehledně shrnuty v tabulce číslo 4. Při měření bylo zjištěno že do výstupu je přimíchána stejnosměrná složka $U_{AVG} = 17,3~mV$.
+      \item
+        Na milimetrový papír byl zakreslen graf výstupního napětí oscilátoru a to jak naměřených hodnot, tak i spočítaných hodnot teoretických. Bylo zjištěno že výstupní napětí zjevně obsahuje další harmonické, protože s teoretickým hodnotám úplně neodpovídá.
+      \item
+      	V posledním bobu zadání byla shrnuta stabilita frekvence oscilátoru, která byla stanovena výpočtem uvedeným výše. Koeficient frekvenční stabilizace vyšel $0,0025$. Při měření nejvyšší naměřená frekvence byla $f_{MAX} = 1,4805~kHz$. Nejnižší naměřená frekvence dosáhla hodnoty $f_{MIN} =  1,4768~kHz$. Průměrná frekvence byla spočtena s deseti naměřených hodnot měřených v minutových intervalech zaznamenaných do tabulky číslo 6. Její hodnota je $f_{prum} =  1,4773~kHz$.
+  \end{enumerate}

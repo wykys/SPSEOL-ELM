@@ -1,0 +1,24 @@
+\section{Grafy}
+\setcounter{figure}{0}
+  \renewcommand{\figurename}{Graf č.}
+  
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=13cm]{../img/g1.pdf}
+    \caption{Závislost $U_0$ na $f$, zapojení dle schématu č. 1}
+    \label{graf:1}
+  \end{figure}
+  
+  \begin{figure}[H]
+    \centering
+    \includegraphics{../img/graf2.pdf}
+    \caption{Závislost $U_0$ na $f$, zapojení dle schématu č. 2}
+    \label{graf:2}
+  \end{figure}
+
+  \begin{figure}[H]
+    \centering
+    \includegraphics{../img/graf3.pdf}
+    \caption{Závislost $U_0$ na $f$, zapojení dle schématu č. 3}
+    \label{graf:3}
+  \end{figure}

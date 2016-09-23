@@ -1,0 +1,58 @@
+\section*{Postup měření}
+  \subsection*{Měření proudového zesilovacího činitele}
+    \begin{itemize}
+      \item
+        DMM nastavíme na měření $\beta$.
+      \item
+      	K DMM vhodným způsobem připojíme zkoumaný tranzistor, viz schéma č. 2.
+      \item
+      	Z displaye DMM zjistíme naměřenou hodnotu.
+		\end{itemize}
+		
+  \subsection*{Měření napěťového přenosu}
+    \begin{itemize}
+      \item
+        Zapojíme obvod dle schématu č.3.
+      \item
+      	Na výstup generátoru nastavíme frekvenci $f = 1~kHz$.
+      \item
+      	Z milivoltmetrů a osciloskopu zjistíme měřené hodnoty.
+      \item
+      	Z naměřených hodnot dopočítáme $A_u$
+		\end{itemize}
+		
+  \subsection*{Měření mezních kmitočtů zesilovače}
+    \begin{itemize}
+      \item
+      	Zapojíme obvod dle schématu č.3.
+      \item
+      	Na výstup generátoru nastavíme frekvenci $f = 1~kHz$.
+      \item
+      	Změříme hodnoty vstupu a výstupu pomocí milivoltmetrů $M_1$ a $M_2$.
+      \item
+      	Ladíme frekvenci generátoru směrem nadoru, dokud úroveň na výstupu nepoklesne o tři decibely.
+      \item
+      	Zjistíme aktuální frekvenci pomocí čítače.
+      \item
+      	Opakujeme poslední dva body, ale frekvenci měníme směrem dolů.
+		\end{itemize}
+		
+  \subsection*{Měření vstupního odporu}
+    \begin{itemize}
+      \item
+        Zapojíme obvod dle schématu č. 4.
+      \item
+        Na generátoru nastavíme frekvenci $f = 1~kHz$.
+      \item
+      	Dekádu nastavýme na nejmenší možný odpor.
+      \item
+      	Změříme výstupní namětí, pomocí milivoltmetru $M_2$.
+      \item
+      	Zvyšujeme odpor dekády, dokud výstupní napětí nehlesne na polovinu napětí naměřeného v minulém bodu.
+      \item
+      	Z dekády odečteme vstupní odpor.
+      \item
+      	Dekádu zapojíme dle schématu č. 5.
+      \item
+      	Měřením můžeme ověřit odpor dekády.
+		\end{itemize}

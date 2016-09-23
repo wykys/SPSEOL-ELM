@@ -1,0 +1,54 @@
+\section{Vzory výpočtů}
+  
+  Výpočet relativní procentuální chyby digitu:
+  \begin{equation}
+    \delta _{digit\%} = \dfrac{\pm digit}{MH} \cdot 100 = \dfrac{\pm 0,01}{0,81} \cdot 100 \doteq \underline{\underline{\pm 1,234~\%}}
+    \nonumber
+  \end{equation}
+  
+  Celková procentuální chyba:
+  \begin{equation}
+    \delta_{\%} = \pm\delta_{MH\%} \pm \delta_{digit\%} = \pm 0,5 \pm 1,234 \doteq \underline{\underline{\pm 1,734~\%}}
+    \nonumber
+  \end{equation}
+  
+  Celková absolutní chyba:
+  \begin{equation}
+    \Delta U = \dfrac{\delta_\%}{100} \cdot MH = \dfrac{0,859}{100} \cdot 16,973 = \underline{\underline{\pm 145,784~\Omega}}
+    \nonumber
+  \end{equation}
+  
+  Výpočet teoretické hodnoty výstupního napětí s využitím vztahu (4)
+  \begin{equation}
+    U_{OUT_{VYP}} = A_N \cdot U_{IN} = -\dfrac{R_2}{R_1} \cdot U_{IN} =  -\dfrac{5}{5} \cdot 0,8 = \underline{\underline{-0,8~V}}
+    \nonumber
+  \end{equation}
+  
+  Výpočet $\Delta U_{OUT} - U_{OUT_{VYP}}$
+  \begin{equation}
+    \Delta U_{OUT} - U_{OUT_{VYP}} = U_{OUT} - U_{OUT_{VYP}} = -0,81 - (-0,8) = \underline{\underline{0,01~V}}
+    \nonumber
+  \end{equation}
+  
+  Výpočet rezistorů $R_1$ a $R_2$ pro zisk $20~dB$
+  \begin{eqnarray}
+    20 &=& 20 \cdot \log\dfrac{U_{OUT}}{U_{IN}} \\\nonumber
+    1 &=& \log\dfrac{U_{OUT}}{U_{IN}} \\\nonumber
+    \log10 &=& \log\dfrac{U_{OUT}}{U_{IN}} \\\nonumber
+    10 &=& \dfrac{U_{OUT}}{U_{IN}} = -\dfrac{R_2}{R_1} \\\nonumber
+    R_1 &=& \underline{\underline{10~k\Omega}} \\\nonumber
+    R_2 &=& 10 \cdot R_1 = 10 \cdot 10 = \underline{\underline{100~k\Omega}}
+    \nonumber
+  \end{eqnarray}
+  
+  Výpočet rezistoru R$_2$
+  \begin{equation}
+    R_2 = \dfrac{T_L}{C\cdot\ln2} =  \dfrac{80\cdot10^{-6}}{6,8\cdot10^{-9}\cdot\ln2} \doteq \underline{\underline{16,973~k\Omega}}
+    \nonumber
+  \end{equation}
+  
+  Výpočet rezistoru R$_1$
+  \begin{equation}
+    R_1 = \dfrac{T_H}{C\cdot\ln2} - R_2 =  \dfrac{120\cdot10^{-6}}{6,8\cdot10^{-9}\cdot\ln2} - 16,973 \cdot 10^3 \doteq \underline{\underline{8,486~k\Omega}}
+    \nonumber
+  \end{equation}

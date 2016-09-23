@@ -1,0 +1,20 @@
+\section{Tabulka použitých přístrojů}
+  \begin{table}[H]
+    \begin{center}
+      \begin{tabular}[H]{!{\vrule width 1pt}c|c|c|c!{\vrule width 1pt}}
+      \specialrule{1pt}{0pt}{0pt} 
+      \textbf{Označení v zapojení} & \textbf{Přístroj} & \textbf{Typ} & \textbf{Evidenční číslo} \\\specialrule{1pt}{0pt}{0pt} 
+      
+      $M_1$   & DMM           & MASTECH MY-64     & $0655$   \\\hline      
+      $M_2$   & Hallovy sonda & -     & $-$   \\\hline      
+      $M_3$   & DDM						& MASTECH MY-64     & $0659$   \\\hline      
+      $Z_1$		&  zdroj ss. napětí  &UTES BRNO BK-180 & $0138$\\
+      \specialrule{1pt}{0pt}{0pt}
+     
+          
+    \end{tabular}
+      
+      \caption{Použité přístroje}
+      \label{tab:metr}      
+    \end{center}
+  \end{table}

@@ -1,0 +1,35 @@
+\section*{Vzory výpočtů}
+  
+  \indent\indent Určení složek naměřených úrovní:  
+	\begin{eqnarray}
+		L_1 &=& M \\
+		L_2 &=& 2M + K \\
+		L_3 &=& 3M + 2K \doteq 2M + 2K\\
+		L_4 &=& 2M + 2K + T  
+	\end{eqnarray}
+	
+	\hspace*{2cm}kde:\newline    
+  	\hspace*{4cm}$L_1$ \dotfill úrověň naměřená na vstupu generátoru ze schématu č.1\hspace*{4cm}\newline
+  	\hspace*{4cm}$L_2$ \dotfill úrověň naměřená na vstupu generátoru ze schématu č.2\hspace*{4cm}\newline
+  	\hspace*{4cm}$L_3$ \dotfill úrověň naměřená na vstupu generátoru ze schématu č.3\hspace*{4cm}\newline
+  	\hspace*{4cm}$L_4$ \dotfill úrověň naměřená na vstupu generátoru ze schématu č.4\hspace*{4cm}\newline
+  	\hspace*{4cm}$K$ \dotfill útlum konektoru\hspace*{4cm}\newline
+  	\hspace*{4cm}$M$ \dotfill útlum modulu\hspace*{4cm}\newline
+  	\hspace*{4cm}$T$ \dotfill útlum optické trasy\hspace*{4cm}\newline
+  
+ 
+  
+  
+  Výpočet útlumu konektoru ze vstahů (1) a (2):
+  \begin{equation}
+  	K = L_2 - 2L_1 = 2M + K - 2M = -20,95 -2(-20,80)\doteq \underline{\underline{\pm 1,667~\%}}
+    \nonumber
+  \end{equation}
+  
+  Výpočet útlumu trasy ze vstahů (3) a (4):
+	\begin{equation}
+  	T = L_4 - 2L_3 = 2M + 2K + T - (2M + 2K) = -21,03 -(-20,11) = \underline{\underline{-3.38
+~dB}}
+    \nonumber
+  \end{equation}
+

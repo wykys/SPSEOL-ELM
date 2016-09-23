@@ -1,0 +1,24 @@
+\section{Grafy}
+\setcounter{figure}{0}
+  \renewcommand{\figurename}{Graf č.}
+  
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=12cm]{../img/g1.pdf}
+    \caption{Část průběhu napětí na pinu 3 IO555 zapojeného dle schématu č. 2}
+    \label{graf:1}
+  \end{figure}
+  
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=12cm]{../img/g2.pdf}
+    \caption{Část průběhu napětí na pinu 2 IO555 zapojeného dle schématu č. 2}
+    \label{graf:2}
+  \end{figure}
+  
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=13cm]{../img/g3.pdf}
+    \caption{Část napěťových průběhů $u_{IN}(t)$ a $u_{OUT}(t)$}
+    \label{graf:3}
+  \end{figure}

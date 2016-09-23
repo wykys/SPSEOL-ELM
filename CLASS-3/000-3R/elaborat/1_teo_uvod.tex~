@@ -1,0 +1,19 @@
+\section{Teoretický úvod}
+  \indent
+  \indent
+  Dělič napětí nebo-li napěťoví dělič je elktrotechnické zapojení, které slouží k rozdělení napětí na $n$ částí, kde $n$ je počet impedancí v obvodu. Napěťové děliče můžeme rozdělit například na dvě skupiny:
+  \begin{description}
+    \item[Nezatížený napěťový dělič]
+      \begin{figure}[htbp]
+        \centering
+        \includegraphics{../ne.pdf}
+        \caption{Nezatížený dělič}
+        \label{sch:ne}
+      \end{figure}
+      Jak je vidět ze schématu zapojení, tak nemá pžipojený zaťěžovací rezistor. Dá se popsat těmito rovnicemi:
+      \begin{equation}
+        U_2 = U_1 \cdot \dfrac{R_1}{R_1+R_2}
+      \end{equation}
+    \item[Zatížený napěťový dělič]
+      bafiky baf nesežrals ho?
+  \end{description}

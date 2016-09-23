@@ -1,0 +1,40 @@
+\section{Vzory vápočtů}
+  $\Delta_{U_m}$ nám udává o kolik voltů jsme od skutečné hodnoty.
+  
+  \begin{equation}
+    \Delta_{U_m}  = \dfrac{\delta_\%}{100} \cdot U_m = \dfrac{114,2 \cdot 10^6 }{100} \cdot 1,60 = \underline{\underline{80~mV}}
+    \nonumber
+  \end{equation}
+  
+  $R_L$ spočítáme dosazením do vstahu (3). Kde: $R_G$ je odpor menerující proud, v zapojeních se sérivou rezonancí jsme použili jmenovitou hodnotu $1~k\Omega$ a u paralerní reronance $180~k\Omega$.
+  
+  \begin{equation}
+    R_L = \dfrac{U_0}{U_0-U_m} \cdot R_G - R_G = \dfrac{6}{6-1} \cdot 983
+ - 983 = \underline{\underline{196,6~\Omega}}
+    \nonumber
+  \end{equation}
+  
+  $L$ spočítáme dosazením do vstahu (4).
+  
+  \begin{equation}
+    L = \dfrac{X_L}{2\pi f} = \dfrac{196,6}{2\pi 190} = \underline{\underline{196,6~\mu H}}
+    \nonumber
+  \end{equation}
+  
+  Napětí na okraji pásma sériového rezonančního obvodu vypočítáme z využitím vztahu (1).
+
+  \begin{eqnarray}
+    U_2 &=& U_1 10^{\frac{3}{20}} = 0,18 \cdot 10^{\frac{3}{20}} = \underline{\underline{0,325~V}} \nonumber
+  \end{eqnarray}
+  
+  \newpage Napětí na okraji pásma paralerního rezonančního obvodu vypočítáme z využitím vztahu~(5).
+
+  \begin{eqnarray}
+    U_2 &=& U_1 10^{-\frac{3}{20}} = 0,22 \cdot 10^{-\frac{3}{20}} \doteq \underline{\underline{0,156~V}} \nonumber
+  \end{eqnarray}
+  
+  Napětí na okraji pásma paralerního rezonančního obvodu se sníženým činětelem jakosti vypočítáme z využitím vztahu~(5)
+
+  \begin{eqnarray}
+    U_2 &=& U_1 10^{-\frac{3}{20}} = 0,1 \cdot 10^{-\frac{3}{20}} \doteq \underline{\underline{0,071~V}} \nonumber
+  \end{eqnarray}

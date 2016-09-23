@@ -1,0 +1,74 @@
+\section*{Tabulky naměřených a vypočítaných hodnot} 
+
+	\begin{table}[H]
+    \begin{center}
+      \begin{tabular}[H]{!{\vrule width 1pt}c|c|c!{\vrule width 1pt}}
+        \specialrule{1pt}{0pt}{0pt} 
+        veličina			&		počtená hodnota		&		naměřená hodnota		\\\specialrule{1pt}{0pt}{0pt} 
+       	$\beta$		&  $-$	&		$68$			&		$10$		\\\hline
+       	$R_1~[k\Omega]$		&		$6,258$		&		$6,2$		\\\hline
+				$R_2~[\Omega]$		&		$544,217$	&		$560$		\\\hline
+				$R_3~[\Omega]$		&		$500$			&		$500$		\\\hline
+				$R_4~[\Omega]$		&		$10$			&		$10$		\\\hline
+				$C_3~[\mu F]$			&		$-$				&		$100$
+				\\\specialrule{1pt}{0pt}{0pt} 
+        
+      \end{tabular}
+      
+      \caption{napěťový přenos $A_u$ s odpojeným kondenzátorem $C_3$}
+      \label{tab:s1}      
+    \end{center}
+  \end{table}
+	
+  
+  \begin{table}[H]
+    \begin{center}
+      \begin{tabular}[H]{!{\vrule width 1pt}c|c|c|c|c|c!{\vrule width 1pt}}
+        \specialrule{1pt}{0pt}{0pt} 
+        přístroj			&		$U_1~[mV]$		&	$\delta_{\%U_1}$		&		$U_2~[mV]$		&		$\delta_{\%U_2}$		&		$A_u$		\\\specialrule{1pt}{0pt}{0pt} 
+       	milivoltmetr	&		$4$		&	$\pm3,75$		&		$270$		&		$\pm1,667$		&		$67,5$		\\\hline
+       	osciloskop		&		$5$		&	$\pm3$		&		$350$		&		$\pm4,5$		&		$70$
+				\\\specialrule{1pt}{0pt}{0pt} 
+        
+      \end{tabular}
+      
+      \caption{napěťový přenos $A_u$ s připojeným kondenzátorem $C_3$}
+      \label{tab:s1}      
+    \end{center}
+  \end{table}
+  
+  \begin{table}[H]
+    \begin{center}
+      \begin{tabular}[H]{!{\vrule width 1pt}c|c|c|c|c|c!{\vrule width 1pt}}
+        \specialrule{1pt}{0pt}{0pt} 
+        přístroj			&		$U_1~[mV]$		&	$\delta_{\%U_1}$		&		$U_2~[mV]$		&		$\delta_{\%U_2}$		&		$A_u$		\\\specialrule{1pt}{0pt}{0pt} 
+       	milivoltmetr	&		$4$		&	$\pm3,75$		&		$140$		&		$\pm3,214$		&		$35$		\\\hline
+       	osciloskop		&		$5$		&	$\pm3$		&		$150$		&		$\pm4,5$		&		$30$
+				\\\specialrule{1pt}{0pt}{0pt} 
+        
+      \end{tabular}
+      
+      \caption{napěťový přenos $A_u$ s odpojeným kondenzátorem $C_3$}
+      \label{tab:s1}      
+    \end{center}
+  \end{table}
+  
+  
+    \begin{table}[H]
+    \begin{center}
+      \begin{tabular}[H]{!{\vrule width 1pt}c|c|c!{\vrule width 1pt}}
+        \specialrule{1pt}{0pt}{0pt} 
+        veličina			&		s připojenám kondenzátorem $C_3$		&	s odpojeným kondenzátorem $C_3$	\\\specialrule{1pt}{0pt}{0pt} 
+       	$f_d~[Hz]$		&		$241$		&		$45$		\\\hline
+       	$f_h$~[kHz]				&		$589,721$		&		$636,309$	\\\hline
+				$R_{VST}~[\Omega]$		&		440	&	610
+				\\\specialrule{1pt}{0pt}{0pt} 
+        
+      \end{tabular}
+      
+      \caption{napěťový přenos $A_u$ s odpojeným kondenzátorem $C_3$}
+      \label{tab:s1}      
+    \end{center}
+  \end{table}
+  
+  

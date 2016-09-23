@@ -1,0 +1,31 @@
+\section{Grafy}
+\setcounter{figure}{0}
+  \renewcommand{\figurename}{Graf č.}
+  
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=13cm]{../img/VACH.pdf}
+    \caption{Voltampérová charakteristika, vynesení $U_{TO_{ch}}$ při $20~mA$}
+    \label{graf:1}
+  \end{figure}
+  
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=13cm]{../img/rd.pdf}
+    \caption{Konstrukce diferenciálního odporu}
+    \label{graf:2}
+  \end{figure}
+  
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=13cm]{../img/zat.pdf}
+    \caption{Zatěžovací přímka, při $U_{ZDROJE}~=~5~V$ a $R_{SERIOVY}~=~270~\Omega$}
+    \label{graf:3}
+  \end{figure}
+  
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=10cm]{../img/UNIMA.png}
+    \caption{Výstup ze systému UNIMA}
+    \label{graf:4}
+  \end{figure}

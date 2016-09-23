@@ -1,0 +1,66 @@
+\section*{Vzory výpočtů}
+  
+  \indent\indent Výpočet relativní procentuální chyby digitu:
+  \begin{equation}
+    \delta _{digit\%} = \dfrac{5 \cdot digit}{MH} \cdot 100 = \dfrac{5 \cdot 0,1}{80} \cdot 100 \doteq \underline{\underline{0,625~\%}}
+    \nonumber
+  \end{equation}
+  
+  Celková procentuální chyba:
+  \begin{equation}
+    \delta_{U_2\%} = \pm\delta_{MH\%} + \delta_{digit\%} = \pm 0,5 \pm 0,625 \doteq \underline{\underline{1,125~\%}}
+    \nonumber
+  \end{equation} 
+  
+  Výpočet procentuální chyby $\delta_\%$ milivoltmetru:
+  \begin{equation}
+  	\delta _\% = \pm TP \cdot \dfrac{MR}{MH} = \pm 1,5 \cdot \dfrac{1}{0,9} = \doteq \underline{\underline{\pm 1,667~\%}}
+    \nonumber
+  \end{equation}
+  
+  Výpočet $R_2$, $R_1 = 1~k\Omega$, $A_u = 100$:
+  \begin{equation}
+  	R_2 = R_1(A_u - 1) = 100 - 1 = \underline{\underline{99~k\Omega}}
+    \nonumber
+  \end{equation}
+  
+  Vzhledem k tomu že, použitý rezistor $R_2 = 90~k\Omega$, tak přepočítáme hodnotu napěťového zesílení $A_u$.
+  
+  Výpočet $A_u$, $R_1 = 1~k\Omega$ a $R_2 = 90~k\Omega$:
+  \begin{equation}
+  	A_U = 1 + \dfrac{R_2}{R_1} = \dfrac{1}{90} = \underline{\underline{91}}
+    \nonumber
+  \end{equation}
+  
+  Výpočet napěťové nesymetrie $U_{IO}$:
+  \begin{equation}
+  	U_{IO} = \dfrac{U_2R_1}{R_1+R_2} = \dfrac{80}{1 + 90} \doteq \underline{\underline{0,879~mV}}
+    \nonumber
+  \end{equation}
+  
+  Výpočet rychlosti přeběhu SR:
+  \begin{equation}
+  	SR = \dfrac{\Delta U}{\Delta t} = \dfrac{4}{5} = \underline{\underline{0,8~V\mu s^{-1}}}
+    \nonumber
+  \end{equation}
+  
+  Výpočet $R_2$, $R_1 = 1~k\Omega$, $A_u = 15$:
+  \begin{equation}
+  	R_2 = R_1(A_u - 1) = 15 - 1 = \underline{\underline{14~k\Omega}}
+    \nonumber
+  \end{equation}
+  
+  Výpočet zesílení $A_u$:
+  \begin{equation}
+  	A_u = \dfrac{U_2}{U_1} = \dfrac{5}{0,3} \doteq \underline{\underline{16,667}}
+    \nonumber
+  \end{equation}
+    
+  Výpočet zisku $a_u$:
+  \begin{equation}
+  	a_u = 20\log A_u = 20\log 15 \doteq \underline{\underline{23,521~dB\Omega}}
+    \nonumber
+  \end{equation}
+  
+  
+ 

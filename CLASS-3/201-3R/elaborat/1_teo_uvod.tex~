@@ -1,0 +1,84 @@
+\section{Teoretický úvod}
+  \indent\indent
+ Slovo dioda je uměle vytvořené slovo z řeckého slova ,,di'' (dva) a koncovky slova elektroda. Polovodičová dioda má obvykle dva vývody nazývané anoda a katoda, anoda je připojena k části polovodičového krystalu označovaného P (Positive) a katoda k části polovodičového krystalu označovaného N (Negative). Diody de vyrábí dopováním polovodiče, tj. přidáváním příměsí do polovodiče. Jako příměsi se používají prvky které mají o jeden valenční elektron více pro vytvoření krystalu N, tyto prvky se nazývají donory, nebo prvky které mají o jeden valenční elektron méně, pro vytváření krystalů P, tyto prvky se nazývají akceptory.
+  
+  \subsection{výroba PN přechodu}
+  	\indent\indent
+  	Přechod se vyrábí jak již bylo zmíněno dotování polovodičové destičky příměsemi. Na polovodičovou destičku se položí nečistota která je tvořena atomy co mají ve valenční vrstvě o jeden elektron méně než polovodičová destička. Na druhou část destičky se položí nečistota která je tvořena elektrony, které mají ve valenční vrstvě o jeden elektron více než polovodičová destička. Tato destička se zahřeje v peci na teplotu přibližně~$600~^\circ C$.
+  	
+  	Po zatavení nečistot do polovodiče dojde k rekombinaci elektronů a děr na rozhraní přechodů PN. Po určitém čase bude vlivem rekombinace vytvořena zóna v oblasti přechodu PN, takřka bez volných nosičů náboje. Tento přechod bývá označován jako hradlová vrstva. Po vytvoření této hradlové vrstvi již k další rekombinaci nedochází. I přesto že mezi přechody PN hradlová vrstva je, dochází vlivem okolní teploty k velmi malému proudu elektronů přechodem PN. 
+  
+  \subsection{PN v propustném směru}
+  	\indent\indent
+  	Připojíme-li anodu na kladný pól zdroje a katodu na záporný pól zdroje, a napětí zdroje bude dostatečné k překonání hradlové vrstvy, toto napětí bývá označované jako prahové napětí, začne přechodem PN procházet proud.
+  	
+  \subsection{PN v závěrném směru}
+  	\indent\indent
+  	Připojíme li k anodě záporný pól zdroje a ke katodě kladný pól zdroje, dojde k přitažení volných elektronů ke katodě a pohybu děr k anodě, důsledkem této události dojde k rozšíření hradlové vrstvy. Tohoto jevu se používá u varikapů.
+
+	\subsection{Zatěžovací přímka}
+		\indent\indent
+		Zatěžovací přímka slouží ke graficko-početní metodě analýzy obvodů s lineárním a nelineárním prvkem. V průsečíku zatěžovací přímky a VACH nelineárního prvku sestrojíme kolmice k osám x, y a odečteme z osy x napětí na nelineárním prvku a z osy y proud v obvodu.
+		
+		Úsekový tvar přímky:
+		\begin{equation}
+  		\dfrac{x}{p} + \dfrac{y}{q} = 1
+  	\end{equation}
+		
+		\hspace*{2cm}kde:\newline    
+  	\hspace*{4cm}$x$ \dotfill souřadnice x bodu náležícího této přímce\hspace*{4cm}\newline
+  	\hspace*{4cm}$y$ \dotfill souřadnice y bodu náležícího této přímce\hspace*{4cm}\newline
+  	\hspace*{4cm}$p$ \dotfill souřadnice x bodu ležícího na ose x\hspace*{4cm}\newline
+  	\hspace*{4cm}$q$ \dotfill souřadnice y bodu ležícího na ose y\hspace*{4cm}\newline
+
+		
+		Odvození rovnice pro zatěžovací přímku:
+		\begin{eqnarray}
+      U_D + U_R &=& U \nonumber\\
+      U_D + IR &=& U \nonumber\\
+      \dfrac{U_D}{U} + \dfrac{IR}{U} &=& 1
+    \end{eqnarray}
+		  
+		\hspace*{2cm}kde:\newline    
+		\hspace*{4cm}$U$ \dotfill suma všech úbytků napětí v obvodu\hspace*{4cm}\newline
+		\hspace*{4cm}$U_D$ \dotfill úbytek napětí na diodě\hspace*{4cm}\newline
+		\hspace*{4cm}$I$ \dotfill proud protékající obvodem\hspace*{4cm}\newline
+		\hspace*{4cm}$R$ \dotfill předřadný rezistor\hspace*{4cm}\newline		
+  	
+  	Odvození bodů zatěžovací přímky:
+  	\begin{eqnarray}
+      \dfrac{U_D}{U} + \dfrac{0}{U} &=& 1 \nonumber\\
+      U_D &=& = U \nonumber\\
+      P &=& [U; 0] \\      
+      \dfrac{0}{U} + \dfrac{IR}{U} &=& 1 \nonumber\\
+      I &=& \dfrac{U}{I} \nonumber\\
+      Q &=& [0; \dfrac{U}{R}]
+    \end{eqnarray}
+    		  
+		\hspace*{2cm}kde:\newline    
+		\hspace*{4cm}$U$ \dotfill suma všech úbytků napětí v obvodu\hspace*{4cm}\newline
+		\hspace*{4cm}$U_D$ \dotfill úbytek napětí na diodě\hspace*{4cm}\newline
+		\hspace*{4cm}$I$ \dotfill proud protékající obvodem\hspace*{4cm}\newline
+		\hspace*{4cm}$R$ \dotfill předřadný rezistor\hspace*{4cm}\newline		
+		\hspace*{4cm}$P$ \dotfill souřadnice bodu ležícího na ose x\hspace*{4cm}\newline
+  	\hspace*{4cm}$Q$ \dotfill souřadnice bodu ležícího na ose y\hspace*{4cm}\newline
+  	
+  \subsection{Dynamický (diferenciální) odpor}
+  	\indent\indent
+  	Pokud pracujeme se součástkou který má nelineární VACH, tak si výpočty můžeme zjednodušit tak, že v jednom konkrétním pracovním bodě si spočítáme diferenciální odpor, pomocí tohoto diferenciálního odporu můžeme počítat s nelineárním prvkem v konkrétním pracovním bodu, jakoby byl lineární.
+  	
+  	\subsubsection{Graficko-početní metoda zjištění diferenciálního odporu}
+  		\indent\indent
+  		Na VACH si zvolíme konkrétní pracovní bod, k tomuto pracovnímu bodu sestrojíme tečnu. V libovolném místě k tečně doplníme dvě strany a sestrojíme pravoúhlí trojúhelník, přičemž strana splývající s tečnou bude přepona, viz. graf č. 2.
+  		
+  		Výpočet diferenciálního odporu:  		
+  		\begin{equation}
+  			r_d = \dfrac{\Delta U}{\Delta I}
+  		\end{equation}
+  		
+  		\hspace*{2cm}kde:\newline    
+			\hspace*{4cm}$r_d$ \dotfill diferenciální odpor\hspace*{4cm}\newline
+			\hspace*{4cm}$\Delta U$ \dotfill odvěsna pravoúhlého trojúhelníku rovnoběžná s osou x\hspace*{4cm}\newline
+			\hspace*{4cm}$\Delta I$ \dotfill odvěsna pravoúhlého trojúhelníku rovnoběžná s osou y\hspace*{4cm}\newline
+		
+ 

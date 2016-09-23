@@ -1,0 +1,49 @@
+\section{Vzory výpočtů}
+  
+  Výpočet relativní procentuální chyby digitu:
+  \begin{equation}
+    \delta _{digit\%} = \dfrac{\pm digit}{MH} \cdot 100 = \dfrac{\pm 0,01}{16,973} \cdot 100 \doteq \underline{\underline{\pm 0,059~\%}}
+    \nonumber
+  \end{equation}
+  
+  Celková procentuální chyba:
+  \begin{equation}
+    \delta_{\%} = \pm\delta_{MH\%} \pm \delta_{digit\%} = \pm 0,8 \pm 0,059 \doteq \underline{\underline{\pm 0,859~\%}}
+    \nonumber
+  \end{equation}
+  
+  Celková absolutní chyba:
+  \begin{equation}
+    \Delta I = \dfrac{\delta_\%}{100} \cdot MH = \dfrac{0,859}{100} \cdot 16,973 = \underline{\underline{\pm 145,784~\Omega}}
+    \nonumber
+  \end{equation}
+  
+  Výpočet periody
+  \begin{equation}
+    T = \dfrac{1}{f} =  \dfrac{1}{5 \cdot 10^3} = \underline{\underline{200~\mu s}}
+    \nonumber
+  \end{equation}
+  
+  Výpočet periody v úrovni H
+  \begin{equation}
+    T_H = \dfrac{3}{5} \cdot T =  200 \cdot \dfrac{3}{5} = \underline{\underline{120~\mu s}}
+    \nonumber
+  \end{equation}
+  
+  Výpočet periody v úrovni L
+  \begin{equation}
+    T_L = \dfrac{2}{5} \cdot T =  200 \cdot \dfrac{2}{5} = \underline{\underline{80~\mu s}}
+    \nonumber
+  \end{equation}
+  
+  Výpočet rezistoru R$_2$
+  \begin{equation}
+    R_2 = \dfrac{T_L}{C\cdot\ln2} =  \dfrac{80\cdot10^{-6}}{6,8\cdot10^{-9}\cdot\ln2} \doteq \underline{\underline{16,973~k\Omega}}
+    \nonumber
+  \end{equation}
+  
+  Výpočet rezistoru R$_1$
+  \begin{equation}
+    R_1 = \dfrac{T_H}{C\cdot\ln2} - R_2 =  \dfrac{120\cdot10^{-6}}{6,8\cdot10^{-9}\cdot\ln2} - 16,973 \cdot 10^3 \doteq \underline{\underline{8,486~k\Omega}}
+    \nonumber
+  \end{equation}

@@ -1,0 +1,46 @@
+\documentclass[a4paper, 12pt, titlepage]{article}
+\usepackage[utf8]{inputenc}
+%\usepackage[czech]{babel}
+\usepackage[total={17cm,25cm}, top=3cm, left=2cm, includefoot]{geometry}
+\usepackage{fancyhdr}
+\usepackage{amsmath} % větší zlomyk pmocí \dfrac
+\usepackage{graphicx}
+\usepackage{float} % H aby neuplavali
+\usepackage{ctable} % horozontální čára s nastavitelnou šířkou a mezerami od okolí
+
+
+\pagestyle{fancy}
+\fancyhf{}
+% jednostranná sazba
+%\fancyhead[C]{\leftmark}
+%\fancyhead[L]{Jan Vykydal 3A}
+%\fancyhead[C]{ELM}
+%\fancyhead[R]{SPŠEOL}
+\fancyfoot[C]{
+  \begin{tabular}[htbp]{|c|c|c|c|}
+    \hline
+    \textbf{Jméno PŘÍJMENÍ:} Jan VYKYDAL & \textbf{Třída:} 3A & \textbf{Číslo protokolu:} 302-3R & \textbf{List:} \thepage/\pageref{konec} \\
+    \hline
+  \end{tabular}
+}
+
+\renewcommand{\headrulewidth}{0.0pt}
+%\renewcommand{\footrulewidth}{0.4pt}
+
+\renewcommand{\figurename}{Schéma č.}
+\renewcommand{\tablename}{Tabulka č.}
+
+\setcounter{page}{2}
+
+\begin{document}  
+  \input{1_teo_uvod.tex}
+  \input{2_sch.tex}
+  \input{3_tab_mer.tex}
+  \input{4_postup.tex}
+  \input{5_tab_hod.tex}
+  \input{6_vyp.tex}
+  \input{7_graf.tex}
+  \input{8_zaver.tex}
+
+  \label{konec}
+\end{document}

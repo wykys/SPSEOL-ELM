@@ -1,0 +1,21 @@
+\section{Schéma}
+  \begin{figure}[H]
+    \centering
+    \includegraphics{../img/sch1.pdf}
+    \caption{Měření závislosti $U_m$ na $f$}
+    \label{sch:1}
+  \end{figure}
+  
+  \begin{figure}[H]
+    \centering
+    \includegraphics{../img/sch2.pdf}
+    \caption{Měření závislosti $U_m$ na $f$}
+    \label{sch:2}
+  \end{figure}
+  
+  \begin{figure}[H]
+    \centering
+    \includegraphics{../img/sch3.pdf}
+    \caption{Měření závislosti $U_m$ na $f$}
+    \label{sch:3}
+  \end{figure}

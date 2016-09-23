@@ -1,0 +1,66 @@
+\documentclass[a4paper, 11pt, titlepage]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[czech]{babel}
+\usepackage[total={18.5cm,25cm}, top=3cm, left=1.25cm, includefoot]{geometry}
+\usepackage{fancyhdr}
+\usepackage{amsmath} % větší zlomyk pmocí \dfrac
+\usepackage{graphicx}
+\usepackage{float} % H aby neuplavali
+\usepackage{ctable} % horozontální čára s nastavitelnou šířkou a mezerami od okolí \specialrule{1pt}{0pt}{0pt} 
+\usepackage{array}
+
+\newcommand{\nazevprace}{PROTOKOL O MĚŘENÍ}
+\newcommand{\uloha}{MAGNETICKÁ MĚŘENÍ}
+\newcommand{\pcislo}{202-3R} 			% číslo protokolu
+
+\newcommand{\trida}{3A}
+\newcommand{\skupina}{3}
+\newcommand{\jmeno}{Jan}
+\newcommand{\prijmeni}{VYKYDAL}
+\newcommand{\porc}{26}						% pořadové číslo v třídní knize
+
+\newcommand{\rok}{2013/2014}
+\newcommand{\datm}{28.4.} 				% datum měření
+\newcommand{\dato}{12.5.} 				% datum odevzdání
+
+
+\pagestyle{fancy}
+\fancyhf{}
+% jednostranná sazba
+%\fancyhead[C]{\leftmark}
+%\fancyhead[L]{Jan Vykydal 3A}
+%\fancyhead[C]{ELM}
+%\fancyhead[R]{SPŠEOL}
+\fancyfoot[C]{
+  \begin{tabular}[H]{|c|c|c|c|}
+    \hline
+    \textbf{Jméno PŘÍJMENÍ:} \jmeno~\prijmeni & \textbf{Třída:} \trida & \textbf{Číslo protokolu:} \pcislo & \textbf{List:} \thepage/\pageref{konec} \\
+    \hline
+  \end{tabular}
+}
+
+\renewcommand{\headrulewidth}{0.0pt}
+%\renewcommand{\footrulewidth}{0.4pt}
+
+
+\begin{document} 
+	
+	
+	\renewcommand{\figurename}{Schéma č.}
+	\renewcommand{\tablename}{Tabulka č.}
+	
+	\input{title.tex}
+  \setcounter{page}{2}
+  \input{1_teo_uvod.tex}
+  \input{2_sch.tex}
+  \input{3_tab_mer.tex}
+    \clearpage
+  \input{4_postup.tex}
+  \input{5_tab_hod.tex}
+  \clearpage
+  \input{6_vyp.tex}
+  \input{7_graf.tex}
+  \input{8_zaver.tex}
+
+  \label{konec}
+\end{document}

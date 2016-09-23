@@ -1,0 +1,10 @@
+\section{Grafy}
+\setcounter{figure}{0}
+  \renewcommand{\figurename}{Graf č.}
+  
+  \begin{figure}[H]
+    \centering
+    %\includegraphics[width=13cm]{../img/g.pdf}
+    \caption{Část VA charakteristika Zenerovi diody v závěrném směru}
+    \label{graf:1}
+  \end{figure}

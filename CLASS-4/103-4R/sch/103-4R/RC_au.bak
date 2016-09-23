@@ -1,0 +1,133 @@
+EESchema Schematic File Version 2
+LIBS:elm
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "8 dec 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L FG FG1
+U 1 1 548620CC
+P 2950 4000
+F 0 "FG1" H 3000 3800 60  0001 L CNN
+F 1 "FG" H 2950 4000 60  0001 C CNN
+F 2 "~" H 2950 4000 60  0000 C CNN
+F 3 "~" H 2950 4000 60  0000 C CNN
+	1    2950 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MV M1
+U 1 1 548620DB
+P 3450 4000
+F 0 "M1" H 3500 3800 60  0000 L CNN
+F 1 "MV" H 3450 3900 60  0001 C CNN
+F 2 "~" H 3450 4000 60  0000 C CNN
+F 3 "~" H 3450 4000 60  0000 C CNN
+	1    3450 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MV M2
+U 1 1 548620E8
+P 4750 4000
+F 0 "M2" H 4800 3800 60  0000 L CNN
+F 1 "MV" H 4750 3900 60  0001 C CNN
+F 2 "~" H 4750 4000 60  0000 C CNN
+F 3 "~" H 4750 4000 60  0000 C CNN
+	1    4750 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L RP R1
+U 1 1 54862100
+P 3900 3600
+F 0 "R1" V 4000 3450 60  0000 L CNN
+F 1 "RP" H 4000 3550 60  0001 L CNN
+F 2 "~" H 3900 3600 60  0000 C CNN
+F 3 "~" H 3900 3600 60  0000 C CNN
+	1    3900 3600
+	0    1    -1   0   
+$EndComp
+$Comp
+L C C1
+U 1 1 5486210F
+P 4250 4000
+F 0 "C1" H 4300 3800 60  0000 L CNN
+F 1 "C" H 4400 3950 60  0001 L CNN
+F 2 "~" H 4250 4000 60  0000 C CNN
+F 3 "~" H 4250 4000 60  0000 C CNN
+	1    4250 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 3700 2950 3600
+Wire Wire Line
+	2950 3600 3600 3600
+Wire Wire Line
+	3750 3750 3550 3750
+Wire Wire Line
+	3550 3750 3550 3600
+Connection ~ 3550 3600
+Wire Wire Line
+	3450 3700 3450 3600
+Connection ~ 3450 3600
+Wire Wire Line
+	4200 3600 4750 3600
+Wire Wire Line
+	4750 3600 4750 3700
+Wire Wire Line
+	4750 4300 4750 4350
+Wire Wire Line
+	4750 4350 2950 4350
+Wire Wire Line
+	2950 4350 2950 4300
+Wire Wire Line
+	3450 4300 3450 4350
+Connection ~ 3450 4350
+Wire Wire Line
+	4250 4150 4250 4350
+Connection ~ 4250 4350
+Wire Wire Line
+	4250 3850 4250 3600
+Connection ~ 4250 3600
+$EndSCHEMATC

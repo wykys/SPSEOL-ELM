@@ -1,0 +1,134 @@
+\section{Postup měření}
+  \subsection{Měření rezistorů R$_1$ a R$_2$}
+    \begin{itemize}
+      \item
+        Zapneme DMM a nastavíme vhodný rozsah.
+      \item
+        Vezmeme rizistor R$_1$ a vložíme jej do svorek DMM, dáváme pozor, abychom se nedotýkali přívodních vodičů rezistoru, čímžbychom zkreslovali výsledky měření.
+      \item
+        Poznamenáme si naměřenou hodnotu.
+      \item
+        Celí proces zopakujeme i pro rezistor R$_2$.
+    \end{itemize}
+   
+  \subsection{Měření kapacity kondenzátoru C$_1$}
+    \begin{itemize}
+      \item
+        Zapneme meřící prístroj RLCG BM 959 a nastavíme měřič na měření kapacity.
+      \item
+        Pomocí krokodýlků (chcete-li krokosvorek) propojíme kondenzátor s meřícím přístrojem.
+      \item
+        Chvíli počkáme než tento krásný muzejní kousek zobrazí korektní výsledek.
+       \item
+        Poznamenáme si naměřenou hodnotu.
+       \item
+        Vypneme měřící přístroj RLCG BM 959.
+    \end{itemize}
+  
+  \subsection{Měření periody}
+    \begin{itemize}
+      \item
+        Zapneme zdroj Z$_1$ a pomocí voltmetru V$_1$ nastavíme zadané napětí.
+      \item
+        Zapneme osciloskop a vhodně jej nastavíme.
+      \item
+        Připojíme osciloskop k pinu 3 a 1 IO555.
+      \item
+        Doladíme nastavení osciloskopu tak, aby perioda zabrala celou obrazovku a aby její krajní hodnoty byly v mřížce.
+        \begin{itemize}
+          \item
+            Spočítáme si všechny čtverečky v ose $x$ které zabírá perioda a vynásobíme je časem který máme nastavený na jeden dílek.
+          \item
+            Spočítáme si všechny čtverečky v ose $x$ které zabírá část periody v úrovni H a vynásobíme je časem který máme nastavený na jeden dílek.
+          \item
+            Spočítáme si všechny čtverečky v ose $x$ které zabírá část periody v úrovni L a vynásobíme je časem který máme nastavený na jeden dílek.
+        \end{itemize}
+    \end{itemize}
+  
+  \subsection{Měření dob hran}
+    \begin{itemize}
+      \item
+        Nastavíme si osu $x$ (časovou osu) tak, abychom vyděli přechod z úrovně L na úrověň H.
+      \item
+        Posuneme si průběh tak aby byl zarovnaný s čtverečkovým rastrem.
+      \item
+        Spočítáme si čtverečky osi $x$, které jsou v prostoru nástupné hrany a vynásobýme je časem, který máme nastavený ne jeden dílek.
+      \item
+        Vypočítanou hodnotu si poznačíme.
+      \item
+        Celí proces zopakujeme i pro sestuponu hranu. 
+    \end{itemize}
+  
+  \subsection{Měření celkového rozkmitu (napětí špička špička)}
+    \begin{itemize}
+      \item
+        Na osciloskopu nastavíme mód auto a poté nastavíme měření $U_{PP}$ (Peak to Peak - špička špička).
+      \item
+        Počkáme dokud osciloskop nezabrazí naměřenou hodnotu.
+      \item
+        Naměřenou hodnotu si zaznamenáme.
+    \end{itemize}
+    
+  \subsection{Měření efektivní hodnoty}
+    \begin{itemize}
+      \item
+        Na osciloskopu nastavíme mód auto a poté nastavíme měření $U_{AVG}$ (Average - průmer).
+      \item
+        Počkáme dokud osciloskop nezabrazí naměřenou hodnotu.
+      \item
+        Naměřenou hodnotu si zaznamenáme.
+    \end{itemize}
+    
+  \subsection{Měření střední hodnoty}
+    \begin{itemize}
+      \item
+        Na osciloskopu nastavíme mód auto a poté nastavíme měření $U_{RMS}$ (Root Mean Square).
+      \item
+        Počkáme dokud osciloskop nezabrazí naměřenou hodnotu.
+      \item
+        Naměřenou hodnotu si zaznamenáme.
+    \end{itemize}
+    
+  \subsection{Měření maximální a minimální ustálené hodnoty}
+    \begin{itemize}
+      \item
+        Na osciloskopu nastavíme mód auto.
+      \item
+        Počkáme dokud osciloskop nezabrazí průběh napětí.
+      \item
+        Z vykresleného průběhu zjistíme minumální a maximální ustálené napětí ($U_{MIN_{ustalena}}$, $U_{MAX_{ustalena}}$)
+      \item
+        Zaznamenáme si naměřené hodnoty.
+    \end{itemize}
+  
+  \subsection{Měření časovacího kondenzátoru}
+    \begin{itemize}
+      \item
+        Přepneme osciloskop nakanál B, který je připojen na pin 2 IO555.
+      \item
+        Nastavíme mód auto.
+      \item
+        Počkáme dokud osciloskop nevykreslí charakteristiku.
+      \item
+        Z vykreslené charakteristiky zjistíme niminální a maximální hodnotu napětí, a čas nabíjení a vybíjení kondenzátoru, přičemž postupujeme obdobně jako u měření obdélníhového výstupu na pinu 3.
+      \item
+        Naměření hodnoty si zaznamenáme.
+      \item
+        Vypneme osciloskop. 
+    \end{itemize}
+        
+  \subsection{Měření frekvence}
+    \begin{itemize}
+      \item
+        Zapneme čítač a nastavíme si vhodný rozsah.
+      \item
+        Připojíme čítač k pinu 3 a 1 IO555.
+      \item
+        Chvíli počkáme a zaznačíme si nameřenou hodnotu.
+      \item
+        Vypneme čítač.
+      \item
+        Vypneme napájecí zdroj Z$_1$.
+      \item
+        Ukončíme měření. 
+    \end{itemize}

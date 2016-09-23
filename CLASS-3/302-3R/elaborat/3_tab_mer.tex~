@@ -1,0 +1,22 @@
+\section{Tabulka použitých přístrojů}
+  \begin{table}[H]
+    \begin{center}
+      \begin{tabular}[H]{!{\vrule width 1pt}c|c|c|c|c!{\vrule width 1pt}}
+      \specialrule{1pt}{0pt}{0pt} 
+      \textbf{Označení v zapojení} & \textbf{Přístroj} & \textbf{Typ} & \textbf{Evidenční číslo} &\textbf{Poznámka} \\\specialrule{1pt}{0pt}{0pt} 
+      
+      $M1$   & DMM           & MASTECH MY-64     & $0653$  & vyb.~baterie \\\hline
+      $M2$   & DMM           & MASTECH MY-64     & $0661$  & vyb.~baterie \\\hline
+      $M3$   & DMM           & MASTECH MY-64     & $0659$  & vyb.~baterie \\\hline
+      $M4$   & DMM           & MASTECH MY-64     & $0657$  & vyb.~baterie \\\hline
+      $Z1$  & zdroj s.s napětí     & BK-127 & $0137$  & $-$ \\\hline
+      $R1$  & reostat     & $250\Omega~/~500~V$ & $0055$  & $-$ \\\hline
+      $R2$  & reostat     & $105\Omega~/~500~V$ & $0037$  & $-$ \\\hline
+      $mV$  & milivoltmetr  & TESLA BK-128      & $0132$  & $-$ \\\specialrule{1pt}{0pt}{0pt} 
+          
+    \end{tabular}
+      
+      \caption{Tabulka použitých přístrojů}
+      \label{tab:metr}      
+    \end{center}
+  \end{table}

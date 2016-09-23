@@ -1,0 +1,23 @@
+\section{Postup měření}
+  \begin{itemize}
+    \item
+      Zapojíme úlohu podle schématu č. 1 a po kontrole začneme měřit.
+    \item
+      Nastavíme napětí $U_0$ na hodnotu dle zadání. ($U_0$ nastavujeme z odpojeným rezonančním obvodem)
+    \item
+      Laděním nalezneme frekvenci $f_0$. ($U_m$ bude minimální)
+    \item
+      Proměříme charakteristiku $\pm$ 50 kHz kolem $f_0$.
+    \item
+      Zapojíme úlohu podle schématu č. 2 a po kontrole začneme měřit.
+    \item
+      Laděním nalezneme frekvenci $f_0$. ($U_m$ bude maximální)
+    \item
+      Proměříme charakteristiku $\pm$ 50 kHz kolem $f_0$.
+     \item
+      Zapojíme úlohu podle schématu č. 3 a po kontrole začneme měřit.
+    \item
+      Laděním nalezneme frekvenci $f_0$. ($U_m$ bude maximální)
+    \item
+      Proměříme charakteristiku $\pm$ 50 kHz kolem $f_0$.
+  \end{itemize}

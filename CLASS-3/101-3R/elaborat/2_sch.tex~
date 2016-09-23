@@ -1,0 +1,7 @@
+\section{Schéma}
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=10cm]{../img/sch2.pdf}
+    \caption{Zapojení měřícího obvodu}
+    \label{sch:2}
+  \end{figure}

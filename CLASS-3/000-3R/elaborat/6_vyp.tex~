@@ -1,0 +1,14 @@
+\section{Vzory vápočtů}
+  \begin{equation}
+    \delta_{digit\%}  = 100 \cdot \dfrac{digit}{U_2} = 100 \cdot \dfrac{0,001}{0,283} = 0,353 \%
+  \end{equation}
+
+  \begin{equation}
+    \delta_{\%}  = \pm \delta_{digit\%} \pm \delta_{MH\%}
+  \end{equation}
+
+  \begin{equation}
+    \delta_{\%}  = \pm \delta_{digit\%} \pm \delta_{MH\%}
+  \end{equation}
+
+  $U_{2V}$ bylo spočítáno dozazením do vstahu (4)

@@ -1,0 +1,27 @@
+\begin{minipage}[H][11.48cm][c]{0.8\textwidth}
+  \begin{enumerate}
+    \item
+      Pro zadanou hodnotu $I_C$ vypočítejte hodnotu $R_C$ a zvolte nejbližší hodnotu z řady.
+    \item
+      Nastavte pracovní bod tranzistoru (měřením $U_{RC}$) a ve výstupním obvodu tranzistorového zesilovače ($U_{RC}$, $U_{CE}$, $U_{RE}$) ověřte platnost II. KZ.
+    \item
+			Pro $f = 1~kHz$, $R_E = 10~\Omega$ změřte $A_u$ zesilovače pomocí:
+			\begin{enumerate}
+				\item
+					dvou milivoltmetrů
+				\item
+					dvoukanálového osciloskopu
+			\end{enumerate}
+			Změřené hodnoty porovnejte a vyberte měřící metodu s menší chybou měření.
+    \item
+      Změřte mezní kmitočty zesilovače $f_d$ a $f_h$, na $mm$ papír nakreslete orientační tvar frekvenční přenosové charakteristiky zesilovače.
+    \item
+      Pro $f = 1~kHz$ změřte vstupní odpor zesilovače.
+		\item
+			Vhodným způsobem změňte úroveň zpětné vazby a opakujte měření parametrů zesilovače viz. body zadání 3-4-5.
+		\item
+			Změřte a zakreslete časové průběhy napětí na vstupu a výstupu zesilovače $f = 1~kHz$.
+	\end{enumerate}
+\end{minipage}
+
+

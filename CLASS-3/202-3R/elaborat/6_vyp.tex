@@ -1,0 +1,54 @@
+\section{Vzory výpočtů}
+  
+  \indent\indent Výpočet relativní procentuální chyby digitu:
+  \begin{equation}
+    \delta _{digit\%} = \dfrac{\pm digit}{MH} \cdot 100 = \dfrac{\pm 0,1}{7,6} \cdot 100 \doteq \underline{\underline{\pm 1,3158~\%}}
+    \nonumber
+  \end{equation}
+  
+  Celková procentuální chyba:
+  \begin{equation}
+    \delta_{\%} = \pm\delta_{MH\%} \pm \delta_{digit\%} = \pm 0,5 \pm 1,3158 \doteq \underline{\underline{\pm 1,8158~\%}}
+    \nonumber
+  \end{equation} 
+  
+  Výpočet koeficientú aproximační rovnice:
+  \begin{eqnarray}
+      B &=& U_H \cdot K_1 + K_2    
+      \nonumber\\
+      %
+      0 &=& 7,6K_1 + K_2
+      \nonumber\\
+      2,125 &=& 13K_1 + K_2
+      \nonumber\\
+      %
+      K_2 &=& -7,6K_1
+      \nonumber\\
+      %
+      2,125 &=& 13K_1 -7,6K_1
+      \nonumber\\
+      %
+      2,125 &=& 5,4K_1
+      \nonumber\\
+      %
+      K_1 &\doteq& \underline{\underline{0,3935}}
+      \nonumber\\
+      %
+      0 &\doteq& 7,6 \cdot 0,3935 + K_2
+      \nonumber\\
+      %
+      K_2 &\doteq& \underline{\underline{-2,9906}}
+      \nonumber
+    \end{eqnarray}
+    
+    Výpočet intenzity magnetického pole:
+    \begin{equation}
+    	H = \dfrac{N \cdot I}{l} = \dfrac{315 \cdot 1}{0,149} \doteq \underline{\underline{2114,094~Am^{-1}}}
+    \nonumber
+  \end{equation} 
+  
+  Výpočet indukčnosti pomocí koeficientů aproximační rovnice:
+    \begin{equation}
+    	B = U_H \cdot K_1 + K_2 = 145 \cdot 0,3935 - 2,9906  \doteq \underline{\underline{54,0669~mT}}
+    \nonumber
+  \end{equation} 

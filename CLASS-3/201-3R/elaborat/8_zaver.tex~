@@ -1,0 +1,28 @@
+\section{Závěr}
+  
+%  \begin{tabular}[H]{rcrl}
+%    $20~V$ & $\pm0,5\%$ z MH $\pm 1$ digit & $19.99~V$ & $0,01~V$ \\
+%    $2~mA$ & $\pm0,8\%$ z MH $\pm 1$ digit & $1.999~V$ & $0,001~mA$ \\
+%    $20~mA$ & $\pm0,8\%$ z MH $\pm 1$ digit & $19.99~V$ & $0,01~mA$ \\
+%    $200~mA$ & $\pm1,5\%$ z MH $\pm 5$ digit & $199.9~V$ & $0,1~mA$
+%  \end{tabular}
+  
+  \subsection{Chyby měřících přístrojů}
+    \indent\indent
+    Procentuální chyba použitých měřících přístrojů ($M_1$ a $M_2$) nepřekročila Při měření stejnosměrných napětí $3~\%$ a při měření střídavých napětí $1~\%$, tudíž by se dali považovat použité měřící přístroje za vhodné a naměřené hodnoty za dostatečně přesné. Maximální procentuální chyba byla při měření stejnosměrných napětí $0,996~\%$, při měření stejnosměrných proudů  dosáhla maximální procentuální chyba hodnoty $2,8~\%$.
+  
+  \subsection{Zhodnocení}
+    \begin{enumerate}
+      \item
+        Byli zjištěny vývody použité diody DOA5 na základě měření, dále bylo změřeno prahové napětí diody $U_{TO_{MP}}~=~0,2108~V$.
+      \item
+        Byla změřena VACH diody a zanesena do grafu, napětí $U_{TO_{MP}}~=~0,3890~V$ při proudu $I_F~=~20~mA$.
+      \item
+      	Byli spočítány souřadnice zatěžovací přímky ($P = [5; 0]$ a $Q \doteq [0; 0,185]$), zatěžovací přímky byla zakreslena do grafu č. 3.
+      \item
+        Velikost diferenciálního odporu byla stanovena na hodnotu $r_d = 40~\Omega$, při proudu $I_F = 18~mA$. Zjištění údajů pro výpočet bylo demonstrováno na grafu č. 2.
+      \item
+        U všech změřených hodnot VACH byli spočítány procentní chyby měření, které byli shrnuty v tabulce č. 1.
+      \tem
+      	Za pomoci měřícího systému UNIMA byla změřena VACH diody DOA5 v propustném směru do proudu $I_F = 20~mA$. Výsledná charakteristika je v grafu č. 4. Naměřené hodnoty systémem UNIMA, se podobají hodnotám naměřenými pomocí metody popsané v postupu měření (měření VACH), tudíž by se dali naměřené VACH považovat za správné.
+    \end{enumerate}

@@ -1,0 +1,76 @@
+\section{Teoretický úvod}
+  \indent\indent
+  Rezonanční obvod je komplexní jednobran tvořený v ideálním případě seriovým nebo paralerním zapojením kondenzátoru a cívky. V reálném strátovém světě všek musíme počítat, ještě ze ztrátovým odporem cívky $R_L$ a ztrátovým odporem kondenzátoru $R_C$. Popřípadně může ještě nastat situace, kdy bude do obvodu přidáno dalších $n$ rezistorů, kondenzátorů či cívek. Rezonanční obvody můžeme rozdělit na dvě skupiny.
+  
+  \subsection{Sériový rezonanční obvod}
+    \indent\indent
+    V sériovém rezonančním obvodu při rezonanční frekvenci $f_0$ obvodem protéká maximální proud, napětí na prvcích rezonančního obvodu poklesne na minimum. Komplexní složky reaktencí mají opačnou hodnotu, díky tomu proud omezují jen ztrátové odpory $R_C$ a $R_L$. Schéma sériového rezonančního obvodu: viz. sch. 1.
+    
+    Odvození vztahu pro výpočet napětí na okraji pásma sériového rezonančního obvodu. Vycházím z toho že pásmo končí u zisku napětí o $3~dB$.
+  
+  \begin{eqnarray}
+      20\log\dfrac{U_2}{U_1} &=& 3 \nonumber\\
+      \log \dfrac{U_2}{U_1} &=& \dfrac{3}{20} \nonumber\\
+      \dfrac{U_2}{U_1} &=& 10^{\frac{3}{20}} \nonumber\\
+      U_2 &=& U_1 10^{\frac{3}{20}}
+    \end{eqnarray}
+    
+    \hspace*{2cm}kde:\newline    
+    \hspace*{4cm}$U_1$ \dotfill napětí při rezonanci\hspace*{4cm}\newline
+    \hspace*{4cm}$U_2$ \dotfill napětí na konci pásma\hspace*{4cm}\newline
+    
+  \subsection{Paralerní rezonanční obvod}
+    \indent\indent
+    V paralerním rezonančním obvodu, při rezonanční frekvenci $f_0$ si sou reaktance rovny $X_C~=~X_L$, obvodem protéká minimální proud a napěrí na prvcích rezonančního obvodu je maximální.  Schéma paralerního rezonančního obvodu: viz. sch. 2 a 3. Ze vztahu $X_C~=~X_L$ se dá odvodit Thomsonův vztah.
+    
+    \begin{eqnarray}
+      X_L &=& X_C \nonumber\\
+      \omega L &=& \dfrac{1}{\omega C} \nonumber\\
+      \omega^2 &=& \dfrac{1}{LC} \nonumber\\
+      \omega &=& \dfrac{1}{\sqrt{LC}} \nonumber\\
+      2\pi f_0 &=& \dfrac{1}{\sqrt{LC}} \nonumber\\
+      f_0 &=& \dfrac{1}{2\pi\sqrt{LC}}   
+    \end{eqnarray}
+    
+    \hspace*{2cm}kde:\newline        
+    \hspace*{4cm}$X_L$ \dotfill indukční reaktance\hspace*{4cm}\newline
+    \hspace*{4cm}$X_C$ \dotfill kapacitní reaktance\hspace*{4cm}\newline
+    \hspace*{4cm}$L$ \dotfill indukčnost\hspace*{4cm}\newline
+    \hspace*{4cm}$C$ \dotfill kapacita\hspace*{4cm}\newline
+    \hspace*{4cm}$\omega$ \dotfill úhlová rychlost\hspace*{4cm}\newline
+    \hspace*{4cm}$f_0$ \dotfill rezonanční frekvence\hspace*{4cm}\newline
+    
+  Vyjádření $R_L$ jako nezatíženého děliče, ze schématu 1, Za předpokladu C má hodnotu v řátech $\mu$F.
+  
+  \begin{eqnarray}
+    \dfrac{R_G}{R_G+R_L} \cdot U_0 &=& U_0 - U_m \nonumber\\
+    R_GU_0 &=& (U_0-U_m)(R_G+R_L) \nonumber\\
+    R_L &=& \dfrac{U_0}{U_0-U_m} \cdot R_G - R_G
+  \end{eqnarray}
+  
+  \hspace*{2cm}kde:\newline        
+  \hspace*{4cm}$U_0$ \dotfill výstupní napětí generátoru\hspace*{4cm}\newline
+  \hspace*{4cm}$U_m$ \dotfill měřené napětí\hspace*{4cm}\newline
+  \hspace*{4cm}$R_L$ \dotfill ztrátový odpor cívky\hspace*{4cm}\newline
+  \hspace*{4cm}$R_G$ \dotfill rezistor sloužící jako omezovač proudu\hspace*{4cm}\newline
+    
+  Odvození indukčnosti $L$ ze vztahu pro $X_L$.
+  
+  \begin{eqnarray}
+    X_L &=& 2\pi fL \nonumber\\
+    L &=& \dfrac{X_L}{2\pi f}
+  \end{eqnarray}
+  
+  Odvození napětí na okraji pásma paralerního rezonančního obvodu. Vycházím z toho že pásmo končí u poklesu napětí pod $-3~dB$.
+  
+  \begin{eqnarray}
+    20\log\dfrac{U_2}{U_1} &=& -3 \nonumber\\
+    \log \dfrac{U_2}{U_1} &=& -\dfrac{3}{20} \nonumber\\
+    \dfrac{U_2}{U_1} &=& 10^{-\frac{3}{20}} \nonumber\\
+    U_2 &=& U_1 10^{-\frac{3}{20}}
+  \end{eqnarray}
+    
+  \hspace*{2cm}kde:\newline    
+  \hspace*{4cm}$U_1$ \dotfill napětí při rezonanci\hspace*{4cm}\newline
+  \hspace*{4cm}$U_2$ \dotfill napětí na konci pásma\hspace*{4cm}\newline
+ 

@@ -1,0 +1,31 @@
+\section{Vzory výpočtů}
+  
+  Výpočet relativní procentuální chyby digitu:
+  \begin{equation}
+    \delta _{digit\%} = \dfrac{\pm digit}{MH} \cdot 100 = \dfrac{\pm 5 \cdot 0,1}{20} \cdot 100 = \underline{\underline{\pm 2,5~\%}}
+    \nonumber
+  \end{equation}
+  
+  Celková procentuální chyba:
+  \begin{equation}
+    \delta_{\%} = \pm\delta_{MH\%} \pm \delta_{digit\%} = \pm 1,5 \pm 2,5 = \underline{\underline{\pm 4~\%}}
+    \nonumber
+  \end{equation}
+  
+  Celková absolutní chyba:
+  \begin{equation}
+    \Delta I = \dfrac{\delta_\%}{100} \cdot MH = \dfrac{4}{100} \cdot 20 = \underline{\underline{\pm 0,8~mA}}
+    \nonumber
+  \end{equation}
+  
+  Ztrátový výkon na Zenerově diodě:
+  \begin{equation}
+    P_{ZD} = U_0I =  4,33 \cdot 20 = \underline{\underline{86,6~mW}}
+    \nonumber
+  \end{equation}
+  
+  Předřadný odpor R$_1$ vypočítáme z využitím vztahu (2), tento výpočet je jen orientační, protože předem neznáme jaký roud poteče Zenerovou diodou:
+  \begin{equation}
+    R_1 = \dfrac{U_1-U_2}{I_1} =  \dfrac{10-4}{70} \doteq \underline{\underline{85,7~\Omega}}
+    \nonumber
+  \end{equation}

@@ -1,0 +1,14 @@
+\section{Schéma}
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=17cm]{../img/mer2.pdf}
+    \caption{Zapojení měřícího obvodu}
+    \label{sch:2}
+  \end{figure}
+  
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=17cm]{../img/mer.pdf}
+    \caption{Zapojení měřícího obvodu}
+    \label{sch:2}
+  \end{figure}

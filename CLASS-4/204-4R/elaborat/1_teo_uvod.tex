@@ -1,0 +1,42 @@
+\section*{Teoretický úvod}
+		\subsection*{Dolní propust}
+			\indent\indent
+			Dolní propust je dvojbran, který tlumí signály o frekvenci  vyšší než je mezní frekvence tohoto obvodu. Základní pasivní doplní propust se dá vytvořit se dvou pasivních součástek a to: RC, RL a LC. V našem případě byla použita varianta RC a tak si ji popíšeme. RC dolní propust může být tvořena jedním rezistorem a jedním kondenzátorem. Tyto prvky jsou zapojeny jako klasický dělič napětí (kondenzátor je dole a odebíráme z něj výstupní napětí). Tento dělič je frekvenčně závislí a to na aktuální kapacitní reaktanci použitého kondenzátoru. Toto zapojení se někdy také označuje jako integrační článek. Ale v našem případě by to bylo chybné označení, protože o integračním článku se bavíme tehdy, řešíme-li přechodové děje, nebo-li odezvu na jednotkový impulz.
+			
+			Vztah pro výpočet mezní frekvence dolní a zároveň také horní propusti:
+			\begin{equation}
+  				f_0 = \dfrac{1}{2\pi R C} \Rightarrow R = \dfrac{1}{2\pi f_0 C}
+  			\end{equation}		
+		
+			\hspace*{2cm}kde:\newline    
+  			\hspace*{4cm}$f_0$ \dotfill mezní frekvence\hspace*{4cm}\newline
+	  		\hspace*{4cm}$R$ \dotfill rezistor\hspace*{4cm}\newline
+	  		\hspace*{4cm}$C$ \dotfill kondenzátor\hspace*{4cm}\newline
+			
+		
+		\subsection*{Horní propust}
+			\indent\indent
+			Jedná se o dvojbran, který potlačuje signály o kmitočtu nižším, nežli je mezní frekvence tohoto filtru. Jedná se o obdobu filtru popsaného výše, s tím rozdílem, že nahradíme pořadí použitých součástek a výstupní napětí budeme odebírat s rezistoru. Pro výpočet mezní frekvence platí stejný vztah, jako pro výpočet mezní frekvence dolní propusti.
+		
+		
+		\subsection*{Neinvertující zesilovač s OZ}
+			\indent\indent
+			Neinvertující zesilovač s OZ je zapojení, které zesiluje vstupní signál a přitom neobrací fázi vstupního signálu. Jeho předností je velký vstupní odpor v řádů několika $M\Omega$. V našem případě je ale vstupní odpor snižován rezistorem dolní propusti.
+			
+			
+			Vztah pro výpočet mezní frekvence použitého integračního článku:
+			\begin{equation}
+  				a_u = 20\log\frac{R_{2}}{R_1} + 1 \Rightarrow R_{2} = R_1 (10^{\frac{a_u}{20}} - 1)
+  			\end{equation}		
+		
+			\hspace*{2cm}kde:\newline    
+  			\hspace*{4cm}$a_u$ \dotfill napěťový zisk\hspace*{4cm}\newline
+	  		\hspace*{4cm}$R_1$ \dotfill rezistor\hspace*{4cm}\newline
+	  		\hspace*{4cm}$R_{2}$ \dotfill rezistor\hspace*{4cm}\newline
+  				
+
+  
+		\subsection*{Napěťový sledovač s OZ}
+			\indent\indent
+			Jedná se o takové zapojení OZ, kdy vstupní signál je přiváděn na neinvertující vstup OZ a výstupní signál tvoří zápornou napěťovou zpětnou vazbu. Napěťový sledovač se tomuto obvodu říká proto, že výstupní napětí sleduje napětí vstupní. Jinými slovy $U_{OUT} = U_{IN}$. Protože zpětná vazba nám odečte zesílení obvodu. Tento obvod se nejčastěji používá pro oddělování různých obvodů od sebe. Slouží jako impedanční transformace. Na vstupu má obvod velký vstupní odpor v řádu několika $M\Omega$. Výstupní odpor je zpravidla nízký a pohybuje se v řádu desítek $\Omega$.
+

@@ -1,0 +1,37 @@
+\section*{Tabulky naměřených a vypočítaných hodnot}
+      
+  \begin{table}[H]
+    \begin{center}
+      \begin{tabular}[H]{!{\vrule width 1pt}c|c|c!{\vrule width 1pt}}
+        \specialrule{1pt}{0pt}{0pt} 
+        úrověň~$[dBm]$ & $\lambda~850~nm$ & $\lambda~1300~nm$ \\\specialrule{1pt}{0pt}{0pt} 
+        $L_1$ &	$-20,80$ & $-19,75$ \\\hline
+        $L_2$ &	$-20,95$ & $-19,85$ \\\hline
+        $L_3$ &	$-21,27$ & $-20,11$ \\\hline
+        $L_4$ &	$-24,65$ & $-21,03$
+				\\\specialrule{1pt}{0pt}{0pt} 
+        
+      \end{tabular}
+      
+      \caption{naměřené hodnoty na detektorech}
+      \label{tab:s1}      
+    \end{center}
+  \end{table}
+  
+  \begin{table}[H]
+    \begin{center}
+      \begin{tabular}[H]{!{\vrule width 1pt}c|c|c!{\vrule width 1pt}}
+        \specialrule{1pt}{0pt}{0pt} 
+        útlum~$[dB]$ & $\lambda~850~nm$ & $\lambda~1300~nm$ \\\specialrule{1pt}{0pt}{0pt} 
+        konektor &	$-20,80$ & $-19,75$ \\\hline
+        trasa &	$-3,38$ & $-0.92$
+				\\\specialrule{1pt}{0pt}{0pt} 
+        
+      \end{tabular}
+      
+      \caption{vypočítané hodnoty}
+      \label{tab:s1}      
+    \end{center}
+  \end{table}
+  
+

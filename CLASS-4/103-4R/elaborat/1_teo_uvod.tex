@@ -1,0 +1,42 @@
+\section*{Teoretický úvod}
+		\subsection*{Aktivní filtr}
+			\indent\indent
+			Aktivní filtr je elektronický obvod určený k filtraci vstupního signálu. Skládá se s pasivního filtru a zesilovče. Na rozdíl od pasivních filtrů je signál který projde filtrem sezílen. Díky této vlastnosti může být kompenzován útlum způsobený pasivním filtrem, nebo může docházet k většímu potlačení nežádoucích signálů (Zvětšení rozdílu mezi žádoucími a nežádoucími signály).
+			
+		\subsection*{Pasivní filtr}
+			\indent\indent
+			Pasivní filtr je elektronický obvod realizovaný ze základních elektronických součástek: $R$, $L$, $C$, který slouží k upravení, nebo ke korekci vstupního signálu. V našem případě je použit dolní propust tovřená integračním článkem, která se skládá s rezistoru $R_1$ a kondenzátoru $C_1$. Jednou z nejdůležitejších vlastností frekvenčních filtrů je mezní frekvence. Tato frekcence říká kdy je signál utlumen o $3~dB$.
+			
+			
+			Vztah pro výpořet mezní frekvence použitého integračního článku:
+			\begin{equation}
+  				f_M = \dfrac{1}{2\pi R_1 C_1} \Rightarrow R_1 = \dfrac{1}{2\pi f_M C_1}
+  			\end{equation}		
+		
+			\hspace*{2cm}kde:\newline    
+  			\hspace*{4cm}$f_M$ \dotfill mezní frekvence\hspace*{4cm}\newline
+	  		\hspace*{4cm}$R_1$ \dotfill rezistor\hspace*{4cm}\newline
+	  		\hspace*{4cm}$C_1$ \dotfill kondenzátor\hspace*{4cm}\newline
+  				
+		
+			
+			
+		\subsection*{Zesilovač}
+			\indent\indent
+			Zesilovač je zařízení, které zesiluje vstupní signál. V této úloze je realizován pomocí operačního zesilovače $MAA741$ a rezistorů $R_2$  a $R_3$ zapojeného jako neinvertující zesilovač. Hlavním parametrem zesilovaře je jeho napěťový přenos.
+			
+			
+			
+			Vztah pro výpořetnapěťového přenosu operačního zesilovače v neinvertujícím zapojení:
+			\begin{equation}
+  				a_U = 20\log 1+\dfrac{R_2}{R_3}
+  			\end{equation}		
+		
+			\hspace*{2cm}kde:\newline    
+  			\hspace*{4cm}$a_U$ \dotfill napěťový přenos\hspace*{4cm}\newline
+	  		\hspace*{4cm}$R_2$ \dotfill rezistor\hspace*{4cm}\newline
+	  		\hspace*{4cm}$R_3$ \dotfill rezistor\hspace*{4cm}\newline
+  
+  
+
+

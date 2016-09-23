@@ -1,0 +1,30 @@
+\section{Postup měření}
+  \subsection{Určený vývodů měřené diody}
+    \begin{itemize}
+      \item
+        Zapojíme měřící obvod dle schématu č. 1.
+      \item
+      	Změříme napětí na Hallově sondě bez působení magnetického pole a hodnotu si poznačíme.
+		\end{itemize}
+		
+	\subsection{Cejchování Hallovy sondy}
+    \begin{itemize}
+      \item
+        Vložíme Hallovu sondu do dutého těla solenoidu.
+      \item
+      	Zvyšujeme proud protékající obvodem a poznačujeme si Hallovo napětí.
+      \item
+        Pomocí měřících přístrojů (voltmetru a ampérmetru), si zaznamenáváme naměřené hodnoty.  
+      \item
+        Z naměřených hodnot vypočítáme intenzitu magnetického pole, indukčnost a koeficienty aproximační rovnice.
+		\end{itemize}
+		
+	\subsection{Měření magnetické indukce}
+    \begin{itemize}
+      \item
+        Hallovu sondu přiložíme k měřenému objektu.
+      \item
+      	Změříme několik Hallových napětí která zprůměrujeme.
+      \item
+      	Pomocí koeficientů dopočítáme magnetickou indukci měřeného objektu.
+		\end{itemize}

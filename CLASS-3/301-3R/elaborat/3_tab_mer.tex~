@@ -1,0 +1,17 @@
+\section{Tabulka použitých přístrojů}
+  \begin{table}[H]
+    \begin{center}
+      \begin{tabular}[H]{!{\vrule width 1pt}c|c|c|c|c!{\vrule width 1pt}}
+      \hline
+      \textbf{Označení v zapojení} & \textbf{Přístroj} & \textbf{Typ} & \textbf{Evidenční číslo} &\textbf{Poznámka} \\\hline
+      
+      $-$   & DMM           & MASTECH MY-64     & $0659$  & $-$ \\\hline
+      $FG$  & generátor     & GoldStar FG-2002C & $0382$  & $-$ \\\hline
+      $mV$  & milivoltmetr  & TESLA BK-128      & $0132$  & $-$ \\\hline
+          
+    \end{tabular}
+      
+      \caption{Tabulka použitých přístrojů}
+      \label{tab:metr}      
+    \end{center}
+  \end{table}

@@ -1,0 +1,48 @@
+\section{Postup měření}
+  \subsection{Měření zesilovače při stejnosměrném buzení}
+    \begin{itemize}
+      \item
+        Zapojíme měřící obvod dle schémadu č. 4.
+      \item
+      	Nastavíme rezistor $R_1$ na $5~k\Omega$ a rezistor $R_2$ na hodnotu $5~k\Omega$.
+      \item
+        Pomocí voltmetru $M_1$ nastavíme na zdroji $Z_2$ napětí $0,8~V$.
+      \item
+        Pomocí voltmetru $M_2$ změříme výstupní napětí, tuto hodnotu si poznamenáme.
+      \item
+        Proces měření výstupního napětí a poznamenávání naměřených hodnot opakujeme i pro tyto hodnoty rezistoru $R_2$: $10~k\Omega, 20~k\Omega, 40~k\Omega, 60~k\Omega, 80~k\Omega, 100~k\Omega$.
+		\end{itemize}
+		
+	\subsection{Měření zesilovače při střídavém buzení}
+    \begin{itemize}
+      \item
+        Na vstup připojíme místo DC zdroje generátor harmonického napětí, obvod tedy upravíme dle schématu~č.~5.
+      \item
+      	Nastavíme rezistor $R_2$ na $10~k\Omega$ a rezistor $R_1$ na hodnotu $5~k\Omega$.
+      \item
+        Pomocí voltmetru M1 nastavíme na zdroji FG napětí $U_{IN_{AVG}} = 0,8~V$ a $U_{IN_{RMS}} = 0~V$.
+      \item
+        Voltmetr $M_2$ přepneme na střídavý rozdah.
+      \item
+      	Pomocí voltmetru M2 změříme výstupní napětí, tuto hodnotu si poznamenáme.
+      \item
+        Proces měření výstupního napětí a poznamenávání naměřených hodnot opakujeme i pro tyto hodnoty rezistoru $R_1$: $10~k\Omega, 20~k\Omega, 40~k\Omega, 60~k\Omega, 80~k\Omega, 100~k\Omega$.
+		\end{itemize}
+		
+	\subsection{Měření časových průběhů $u_{IN}(t)$ a $u_{OUT}(t)$}
+    \begin{itemize}
+      \item
+        Nastavíme hodnoty rezistorů $R_1$ a $R_2$ na hodnoty hteré jsme spočítali.
+      \item
+      	Nastavíme rezistor $R_2$ na $10~k\Omega$ a rezistor $R_1$ na hodnotu $5~k\Omega$.
+      \item
+        Pomocí osciloskopu $M_3$ změříme $U_{IN_{AVG}}$, $U_{IN_{RMS}}$, $U_{OUT_{AVG}}$ a $U_{OUT_{RMS}}$.
+      \item
+      	Z funkčního generátoru odečteme kmitošet $f$ vstupního signálu.
+      \item
+        Napěťové průběhy z osciloskopu překreslíme do grafu.
+      \item
+      	Vypneme měřící přístroje a zdroje.
+      \item
+        Ukončíme měření.
+		\end{itemize}

@@ -1,0 +1,36 @@
+\section{Teoretický úvod}
+  \indent\indent
+  Zenerova dioda neboli referenční či lavinová dioda, je polovodičová dioda s přechodem PN speciálně navrženým tak, aby nebyl poškozen kladným napětím v vávěrném směru. Toho je dosaženo vytvožením tzv. tenké závěrné vrstvy mezi krystali N a P. Ta je vytvořena pomocí vhodného dopování příměsemi. Díky této vrstvě dodází k průrazu při podstatně nižších napětí než u diod usměrňovacích. Většinou se jedná o napětí v rozmězí $1~V~-~50~V$. U usměrňovacích diod se toto napětí pohybuje většinou v intervalu $80~V~-~1,5~kV$. Zenerové diody se používají v závěrném směru, protože jejich racovní bod leží v oblasti průrazného napětí. Zenerovi diody můžeme rozdělit do dvou skupin:
+  
+  \subsection{Zenerovy diody se zenerovím napětím $<~5~V$}
+    \indent\indent
+    Tyto diody pracují na principu kterému se říká Zenerův jev nabo-li Zenerův průraz. K Zenerovu průravu dochází pri překročení intenzity elektrického pole na $200kVcm^{-1}~-~500kVcm^{-1}$, což má za následek vytrhnutí elektronů z krystalové mřížky a následné prudké zvýžení vodivosti.
+    
+    Vztah pro Intenzitu elektricého pole někdy též nazívaný spád napětí:
+  
+    \begin{equation}
+      E = \frac{U}{l}
+    \end{equation}
+    
+    \hspace*{2cm}kde:\newline    
+    \hspace*{4cm}$U$ \dotfill napětí ve Voltech\hspace*{4cm}\newline
+    \hspace*{4cm}$l$ \dotfill délka vodiče v jednotkách SI v metrech\hspace*{4cm}\newline
+    
+  \subsection{Zenerovy diody se zenerovím napětím $>~6~V$}
+    \indent\indent
+    Tyto dyody se někdy označují jako lavinové diody. Jejich VACH je v závěrném směru strmější než u diod fungujícím na principu Zenerova jevu. Fungují na principu lavinového průrazu. K lavinovému průrazu dochází pokud je elektrické pole dostatečne silné aby urychlilo elektrony na takovou rychlost, která by způsobyla že při kolizi z krystalovou mřížkou uvolní další elektrony které se zapojí do tohoto procesu. Narozdíl od diod fungujících na Zenerově průrazu tyto diody nepotřebují tenkou extrémě dopovanou vrstvu mezi krystali N a P. Tento jev je spůsoben pouze elektrický polem.
+   
+  \subsection{Zenerova dioda jako stabilizátor napětí.}
+    \indent\indent
+    Část VA charakteristiky Zenerovi diody v závěrném směru od určitého napětí poměrně prudce klesá. Toho se dá využít při návrhu stabilizátoru napětí. Protože v této části charakteristiky má Zenerova dioda při relativně velké změně proudu malou změnu napětí. Umístíme-li pracovní bod právě na tuto část charakteristiky, tak poté můžeme odebírat ze stabilizátoru takřka konstantní napětí při změnách proudu. Schéma rapojení stabilizátoru napětí viz. schéma~č.~2.
+    
+    Výpočet Předřadného rezistoru je dán vztahem:
+    
+    \begin{equation}
+      R = \frac{U-U_{ZD}}{I}
+    \end{equation}
+    
+    \hspace*{2cm}kde:\newline    
+    \hspace*{4cm}$U$ \dotfill vstupní napětí [V]\hspace*{4cm}\newline
+    \hspace*{4cm}$U_{ZD}$ \dotfill úbytek napětí na Zenerově diodě [V]\hspace*{4cm}\newline
+    \hspace*{4cm}$I$ \dotfill proud procházející obvodem [A]\hspace*{4cm}\newline

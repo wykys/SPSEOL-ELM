@@ -1,0 +1,44 @@
+EESchema-LIBRARY Version 2.3  Date: St 22. říjen 2014, 01:49:56 CEST
+#encoding utf-8
+#
+# beta
+#
+DEF ~beta M 0 0 N Y 1 F N
+F0 "M" 50 -200 60 H V L CNN
+F1 "beta" 0 -100 60 H I C CNN
+F2 "~" 0 0 60 H V C CNN
+F3 "~" 0 0 60 H V C CNN
+DRAW
+C 0 0 150 0 1 10 N
+T 0 0 0 60 0 1 1 β  Normal 0 C C
+X ~ ~ 0 -300 150 U 50 50 1 1 P
+X ~ ~ 0 300 150 D 50 50 1 1 P
+X ~ ~ 300 0 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# NPN-O
+#
+DEF ~NPN-O T 0 40 Y Y 1 F N
+F0 "T" -150 -200 60 H V C CNN
+F1 "NPN-O" -150 200 60 H I C CNN
+F2 "~" 0 0 60 H V C CNN
+F3 "~" 0 0 60 H V C CNN
+DRAW
+T 0 -250 50 60 0 0 0 B  Normal 0 C C
+T 0 0 250 60 0 0 0 C  Normal 0 C C
+T 0 0 -250 60 0 0 0 E  Normal 0 C C
+C -50 0 160 0 1 0 N
+P 2 0 1 0  -50 -25  50 -125 N
+P 2 0 1 0  -50 25  50 125 N
+P 2 0 1 10  -50 50  -50 -50 N
+P 2 0 1 0  50 -125  50 -250 N
+P 2 0 1 0  50 250  50 125 N
+P 4 0 1 0  50 -125  25 -75  0 -100  50 -125 F
+X ~ ~ -300 0 250 R 50 50 1 1 I
+X ~ ~ 50 -250 0 L 50 50 1 1 I
+X ~ ~ 50 250 0 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

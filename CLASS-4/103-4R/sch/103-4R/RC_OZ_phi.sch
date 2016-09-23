@@ -1,0 +1,257 @@
+EESchema Schematic File Version 2
+LIBS:elm
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "8 dec 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L FG FG1
+U 1 1 548620CC
+P 3550 4400
+F 0 "FG1" H 3600 4200 60  0001 L CNN
+F 1 "FG" H 3550 4400 60  0001 C CNN
+F 2 "~" H 3550 4400 60  0000 C CNN
+F 3 "~" H 3550 4400 60  0000 C CNN
+	1    3550 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L RP R1
+U 1 1 54862100
+P 3900 3600
+F 0 "R1" V 4000 3450 60  0000 L CNN
+F 1 "RP" H 4000 3550 60  0001 L CNN
+F 2 "~" H 3900 3600 60  0000 C CNN
+F 3 "~" H 3900 3600 60  0000 C CNN
+	1    3900 3600
+	0    1    -1   0   
+$EndComp
+$Comp
+L C C1
+U 1 1 5486210F
+P 4250 4400
+F 0 "C1" H 4300 4200 60  0000 L CNN
+F 1 "C" H 4400 4350 60  0001 L CNN
+F 2 "~" H 4250 4400 60  0000 C CNN
+F 3 "~" H 4250 4400 60  0000 C CNN
+	1    4250 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 3750 3750 3750
+Wire Wire Line
+	3550 3050 3550 4100
+Connection ~ 3550 3600
+Wire Wire Line
+	4200 3600 4750 3600
+Wire Wire Line
+	4250 3600 4250 4250
+Connection ~ 4250 3600
+$Comp
+L MAA741_ IO1
+U 1 1 54862314
+P 5250 3700
+F 0 "IO1" H 5350 3600 60  0000 L CNN
+F 1 "MAA741" H 4850 3500 60  0000 C CNN
+F 2 "~" H 5250 3700 60  0000 C CNN
+F 3 "~" H 5250 3700 60  0000 C CNN
+	1    5250 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L RP R2
+U 1 1 54862335
+P 5800 4050
+F 0 "R2" H 5900 3950 60  0000 L CNN
+F 1 "RP" H 5900 4000 60  0001 L CNN
+F 2 "~" H 5800 4050 60  0000 C CNN
+F 3 "~" H 5800 4050 60  0000 C CNN
+	1    5800 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L RP R3
+U 1 1 5486234D
+P 5800 4750
+F 0 "R3" H 5900 4650 60  0000 L CNN
+F 1 "RP" H 5900 4700 60  0001 L CNN
+F 2 "~" H 5800 4750 60  0000 C CNN
+F 3 "~" H 5800 4750 60  0000 C CNN
+	1    5800 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 3700 6200 3700
+Wire Wire Line
+	5800 3700 5800 3750
+Wire Wire Line
+	5800 4450 5800 4350
+Wire Wire Line
+	4650 4400 5800 4400
+Connection ~ 5800 4400
+Wire Wire Line
+	4650 3800 4750 3800
+Wire Wire Line
+	4650 4400 4650 3800
+$Comp
+L GND P5
+U 1 1 54862400
+P 5800 5150
+F 0 "P5" H 6000 5100 60  0001 C CNN
+F 1 "GND" H 5800 5100 60  0001 C CNN
+F 2 "~" H 5800 5150 60  0000 C CNN
+F 3 "~" H 5800 5150 60  0000 C CNN
+	1    5800 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND P4
+U 1 1 5486240D
+P 4250 5150
+F 0 "P4" H 4450 5100 60  0001 C CNN
+F 1 "GND" H 4250 5100 60  0001 C CNN
+F 2 "~" H 4250 5150 60  0000 C CNN
+F 3 "~" H 4250 5150 60  0000 C CNN
+	1    4250 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND P2
+U 1 1 54862419
+P 3550 5150
+F 0 "P2" H 3750 5100 60  0001 C CNN
+F 1 "GND" H 3550 5100 60  0001 C CNN
+F 2 "~" H 3550 5150 60  0000 C CNN
+F 3 "~" H 3550 5150 60  0000 C CNN
+	1    3550 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 5100 3550 4700
+Wire Wire Line
+	4250 5100 4250 4550
+Wire Wire Line
+	5800 5100 5800 5050
+$Comp
+L Z_SYM Z1
+U 1 1 548624BB
+P 2900 4400
+F 0 "Z1" H 3000 4150 60  0000 L CNN
+F 1 "Z_SYM" H 2950 4600 60  0001 L CNN
+F 2 "~" H 2900 4400 60  0000 C CNN
+F 3 "~" H 2900 4400 60  0000 C CNN
+	1    2900 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND P1
+U 1 1 548624C8
+P 3250 5150
+F 0 "P1" H 3450 5100 60  0001 C CNN
+F 1 "GND" H 3250 5100 60  0001 C CNN
+F 2 "~" H 3250 5150 60  0000 C CNN
+F 3 "~" H 3250 5150 60  0000 C CNN
+	1    3250 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 5100 3250 4400
+Wire Wire Line
+	3250 4400 3200 4400
+Wire Wire Line
+	5250 3300 5250 3250
+Wire Wire Line
+	2900 3250 2900 4100
+Wire Wire Line
+	2900 4700 2900 5200
+Wire Wire Line
+	5250 5200 5250 4100
+Connection ~ 5800 3700
+$Comp
+L GND P6
+U 1 1 5486255F
+P 6150 5150
+F 0 "P6" H 6350 5100 60  0001 C CNN
+F 1 "GND" H 6150 5100 60  0001 C CNN
+F 2 "~" H 6150 5150 60  0000 C CNN
+F 3 "~" H 6150 5150 60  0000 C CNN
+	1    6150 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L OSC-2 M3
+U 1 1 5486270F
+P 6700 3700
+F 0 "M3" H 7050 3250 60  0000 R CNN
+F 1 "OSC-2" H 6700 3700 60  0000 C CNN
+F 2 "~" H 6700 3700 60  0000 C CNN
+F 3 "~" H 6700 3700 60  0000 C CNN
+	1    6700 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 5100 6150 3900
+Wire Wire Line
+	6150 3900 6200 3900
+Wire Wire Line
+	6200 3500 5800 3500
+Wire Wire Line
+	5800 3500 5800 3050
+Wire Wire Line
+	5800 3050 3550 3050
+Connection ~ 3550 3750
+Wire Wire Line
+	3600 3600 3550 3600
+Wire Wire Line
+	2900 5200 5250 5200
+Wire Wire Line
+	5250 3250 2900 3250
+Wire Wire Line
+	5650 4200 5650 4400
+Connection ~ 5650 4400
+Wire Wire Line
+	5650 4900 5650 5100
+Wire Wire Line
+	5650 5100 5800 5100
+Connection ~ 5800 5100
+$EndSCHEMATC
